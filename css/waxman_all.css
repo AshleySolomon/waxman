@@ -252,28 +252,40 @@ footer {
 @media only screen and (min-width: 480px) {
   /* line 275, ../scss/waxman_all.scss */
   nav {
-    width: 60%;
+    width: 70%;
     max-height: 72%;
     overflow-y: auto;
     overflow-x: hidden;
     background-color: #3e3c3d;
   }
-
-  /* line 285, ../scss/waxman_all.scss */
-  #content .column {
-    height: 180px;
+  /* line 281, ../scss/waxman_all.scss */
+  nav .category {
+    font-size: 16px;
+    letter-spacing: 2px;
   }
-  /* line 287, ../scss/waxman_all.scss */
-  #content .column .title {
+  /* line 286, ../scss/waxman_all.scss */
+  nav ul li {
+    font-size: 14px;
+    padding-left: 35px;
+  }
+
+  /* line 295, ../scss/waxman_all.scss */
+  main .column {
+    height: 180px;
+    width: 34%;
+    padding-left: 15%;
+  }
+  /* line 299, ../scss/waxman_all.scss */
+  main .column .title {
     margin-top: 144px;
   }
-  /* line 289, ../scss/waxman_all.scss */
-  #content .column .title p {
+  /* line 301, ../scss/waxman_all.scss */
+  main .column .title p {
     text-align: center;
     font-size: 17px;
   }
-  /* line 293, ../scss/waxman_all.scss */
-  #content .column .title p:nth-child(even) {
+  /* line 305, ../scss/waxman_all.scss */
+  main .column .title p:nth-child(even) {
     font-size: 16px;
   }
 }

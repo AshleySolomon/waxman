@@ -273,17 +273,29 @@ footer{
 // MEDIA QUERIES
 @media only screen and (min-width: 480px){
     nav {
-        width: 60%;
+        width: 70%;
         max-height: 72%; 
         overflow-y: auto;
         overflow-x: hidden;
         background-color: #3e3c3d;
+        .category{
+            font-size: 16px;
+            letter-spacing: 2px;
+        }
+        ul{
+            li{
+                font-size: 14px;
+                padding-left: 35px;
+            }
+        }
     }
     // Override previous value of column height
     $column-height: ($column-height * 0.2) + $column-height;
-    #content{
+    main{
         .column{
             height: $column-height;
+            width: 34%;
+            padding-left: 15%;
             .title{
                 margin-top: $column-height - ($column-height * 0.2);
                 p{
