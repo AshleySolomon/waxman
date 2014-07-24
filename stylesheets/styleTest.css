@@ -1,0 +1,9 @@
+/* Put your CSS here */
+/* line 2, ../scss/styleTest.scss */
+.ember-application {
+  margin: 20px;
+}
+/* line 4, ../scss/styleTest.scss */
+.ember-application li:nth-child(3) {
+  color: green;
+}

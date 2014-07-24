@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Waxman Candles</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+    <link rel="stylesheet" href="../css/normalize.css">
+    <link rel="stylesheet" href="../css/main.css">
+    <link rel="stylesheet" href="../css/waxman_all.css">
+
+    <script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+    <script src="http://code.jquery.com/ui/1.10.3/jquery-ui.js"></script>
+    <script src="../js/hamburger.js"></script>
+    <link href='http://fonts.googleapis.com/css?family=Economica|Poiret+One|Paytone+One|Shadows+Into+Light|Walter+Turncoat|Oxygen|Inconsolata|Shadows+Into+Light+Two|Amatic+SC|Love+Ya+Like+A+Sister' rel='stylesheet' type='text/css'>
+    <script>
+    $(function() {
+        var icon= {
+            header: "category"
+        };
+
+        $( "#accordion" ).accordion({
+            icon: icon,
+            heightStyle: "content",
+            active: false,
+            collapsible: true
+        });
+        $("toggle").button().toggle(function(){
+            $("#accordion").accordion("option", "icon", false);
+        }, function(){
+            $("#accordion").accordion("option", "icon", icon);
+        });
+    });
+    </script>
+
+</head>
+<body>
+    <!--[if lt IE 7]>
+        <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve Youour experience.</p>
+    <![endif]-->
+
+    <!-- <div class="site-header">
+        <div class="logo-container"></div>
+        <div class="cart-info-container"></div>
+        <div id="hamburger"></div>
+    </div> -->
+     <header>
+            <div class="logo-container">
+                <div class="logo"> 
+                    <p>CANDLES<p>                                       
+                </div>
+            </div>
+            <div class="cart-info-container"></div>
+            <div class="nav-container">
+                <div id="hamburger">
+                    <div></div>
+                    <div></div>
+                    <div id="last-line"></div>
+                </div>
+            </div>
+        </header>
+
+    <!--This wrapping container is used to get the width of the whole content-->
+    <div id="container">
+        <!--The Hamburger Button in the Header-->
+       
+
+        <!--The mobile navigation Markup hidden via css-->
+        <nav>
+            <div id="accordion">
+            <!-- candle care is just a link to page -->
+                <div class="category">CANDLE CARE</div>
+                <div></div>
+            <!-- our story is just a link to about page -->              
+                <div class="category">OUR STORY</div>
+                <div></div>
+            <!--container candles just links to product page  -->
+                <div class="category">CONTAINER CANDLES</div>
+                <div></div>
+            <!-- column candles has list of sub categories -->
+                <div class="category">COLUMN CANDLES</div>
+                <div>                    
+                    <ul>
+                      <li>ENVIRONMENTAL</li>
+                      <li>LAYERS</li>
+                      <li>SPIRITUAL</li>
+                      <li>WAXMAN SIGNATURE COLUMN</li>
+                    </ul>
+                </div>
+                <!-- novelty candles has list of sub categories -->
+                <div class="category">NOVELTY CANDLES</div>
+                <div>
+                    <ul class="sub-category">
+                        <li>FOOD</li>
+                        <li>KANSAS</li>
+                        <li>MUSIC</li>
+                        <li>NATURE</li>
+                        <li>SEASONAL</li>
+                        <li>SPIRITUAL</li>
+                        <li>SPORTS</li>
+                        <li>WEDDING</li>
+                        <li>WESTERN</li>
+                        <li>WAXMAN SIGNATURE BALL</li>
+                    </ul>
+                </div>
+                <!-- taper candles haslist of sub categories -->
+                <div class="category">TAPER CANDLES</div>
+                <div>
+                    <ul>
+                        <li>RIBBONS</li>
+                        <li>SPIRALS</li>
+                        <li>THUMBS</li>
+                        <li>WAXMAN ORIGNAL TAPER</li>
+                    </ul>
+                </div>
+                <!-- votive candles is just link to product page -->
+                <div class="category">VOTIVE CANDLES</div>
+                <div></div>
+                <!-- diffuser suppplies is just link to product page -->
+                <div class="category">DIFFUSER SUPPLIES</div>
+                <div></div>
+            </div>            
+        </nav>
+
+        <!--The Layer that will be layed over the content
+        so that the content is unclickable while menu is shown-->
+        <div id="contentLayer"></div>
+
+        <div id="buffer"></div>
+        <!--The content of the site-->
+        <main>
+            <div class="column left container">
+                <div class="title">
+                    <p>CONTAINER</p>
+                    <p>CANDLES</p>
+                </div>
+            </div>
+            <div class="column right columns">
+                <div class="title">
+                    <p>COLUMN</p>
+                    <p>CANDLES</p>
+                </div>                
+            </div>
+            <div class="column left novelty">
+                <div class="title">
+                    <p>NOVELTY</p>
+                    <p>CANDLES</p>
+                </div>
+            </div>
+            <div class="column right taper">
+                <div class="title">
+                    <p>TAPER</p>
+                    <p>CANDLES</p>
+                </div>
+            </div>
+            <div class="column left votive">
+                <div class="title">
+                    <p>VOTIVE</p>
+                    <p>CANDLES</p>
+                </div>
+            </div>
+            <div class="column right diffuser">
+                <div class="title">
+                    <p>DIFFUSER</p>
+                    <p>SUPPLIES</p>
+                </div>
+            </div>
+            
+        </main>
+        <footer>
+            FOOTER
+        </footer>
+
+    </div>
+</body>
+</html>
+
