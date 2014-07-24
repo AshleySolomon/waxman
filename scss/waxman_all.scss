@@ -6,16 +6,18 @@ $white-text-shadow:
     1px -1px 0 white,
     -1px 1px 0 white,
     1px 1px 0 white;
+$border: 1px solid #FFF;
 // DEFAULT VALUE OF COLUMN HEIGHT IS 15Opx. THIS IS THE HEIGHT
 // NEEDED AT MIN-WIDTH 32Opx
 $column-height: 150px;
+
 
 // basic resets
     body {
         margin: 0;
         padding: 0;
         overflow-x:hidden;
-        overflow-y: hidden;
+        // overflow-y: hidden;
         font-family: Arial;
         font-size: 18px;
         background-color: #3e3c3d;
@@ -53,12 +55,12 @@ $column-height: 150px;
         top: 136px;
         position: fixed;
         z-index: 0;
-        width: 60%;
+        width: 70%;
         max-height: 72%;        
         -webkit-box-sizing: border-box;
         -moz-box-sizing: border-box;
         box-sizing: border-box;
-        // overflow: scroll;
+        overflow-y: auto;
         overflow-x: hidden;
         background: #3e3c3d;
         // background: -moz-linear-gradient(top,  #3e3c3d 0%, #2d2c2d 100%);
@@ -71,26 +73,31 @@ $column-height: 150px;
         
         .category{  
             padding: 5px 10px;
-            font-size: 15px;
+            font-size: 14px;
             font-family: $font-primary;
-            letter-spacing: 2px;
+            letter-spacing: 1px;
             color: white;
-            border-bottom: 1px solid white;
+            border-bottom: $border;
             text-align: left;
         }
         ul{
             margin: 0 0;
             padding: 0 0;
             max-height: 150px;
-            overflow-y: scroll;
+            overflow-y: auto;
             overflow-x: hidden;
+            border-bottom: $border;
             li{
-                padding: 3px 30px;
-                font-size: 14px;
+                padding: 5px 0 5px 20px;
+                font-size: 12px;
                 font-family: $font-secondary;
                 font-weight: bold;
                 letter-spacing: 2px;
                 color: white;
+                border-bottom: 1px dashed #FFF;
+                &:last-child{
+                    border-bottom: none;
+                }
             }
         }
     }
