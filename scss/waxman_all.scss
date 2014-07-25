@@ -26,7 +26,9 @@ $column-height: 150px;
         margin: 0 0;
         padding: 0 0;
     }
-    a{color: #222;}
+    a{
+        color: #222;
+        text-decoration: none;}
 
 // Hamburger code
     #hamburger {
@@ -109,20 +111,20 @@ $column-height: 150px;
         }
     }
     
-    /*
-    The Layer that will be layed over the content
-    so that the content is unclickable while menu is shown
-    */
-    #contentLayer {
-        display: none;
-        height: 100%;
-        overflow: auto;
-        position: absolute;
-        left: 0;
-        top: 0;
-        width: 30%;
-        z-index: 5;    
-    }
+/*
+The Layer that will be layed over the content
+so that the content is unclickable while menu is shown
+*/
+#contentLayer {
+    display: none;
+    height: 100%;
+    overflow: auto;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 30%;
+    z-index: 5;    
+}
 header {   
     text-decoration: none;
     position: fixed;
@@ -183,13 +185,11 @@ header {
     position: relative;
     left: 0;
 }
-main {
+main{
     background-color: #FFFFFF;
     padding: 150px 10px 10px 10px;
     position: relative;
     width: auto;
-    // /max-height: 
-  
     -webkit-box-shadow:  -10px 0px 9px 0px rgba(0, 0, 0, 0.4);
     box-shadow:  -10px 0px 9px 0px rgba(0, 0, 0, 0.4);
     .column{    	
@@ -199,6 +199,11 @@ main {
     	display: inline-block;    	
     	margin-bottom: 15px;
     	vertical-align: top;
+        background-color: black;
+        background-size: cover;
+        &.right{
+            float: right;
+        }
         .title{
             margin-top: $column-height - ($column-height * 0.24);           
             background-color: #FFF;
@@ -222,55 +227,37 @@ main {
                 }
             }
         }
-    	&.left{
-    		&.container{
-                background-color: black;
-                // Uncomment the following block when have better pics
-        			// background: url(../images/containers.png) no-repeat bottom;
-                    //background-size: cover;    			
-    		}
-    		&.novelty{
-                background-color: black;
-                // Uncomment the following block when have better pics
-        			// background: url(../images/novelty.jpg) no-repeat;
-                    // background-size: cover;
-    		}
-    		&.votive{
-                background-color: black;
-    			// Uncomment the following block when have better pics 
-                    // background: url(../images/votives.jpg) no-repeat;
-                    // background-size: cover;
-    		}
-    	}
-    	&.right{
-            float: right;
-    		&.columns{
-                background-color: black;
-                // Uncomment the following block when have better pics
-    			     // background: url(../images/columns.jpg) no-repeat;
-                    // background-size: cover;
-    		}
-    		&.taper{
-                background-color: black;
-                // Uncomment the following block when have better pics
-    			    // background: url(../images/tapers.jpg) no-repeat left;
-                    // background-size: cover;
-    		}
-    		&.diffuser{
-                background-color: black;
-                // Uncomment the following block when have better pics
-    			    // background: url(../images/diffuser.jpg) no-repeat;
-                    // background-size: cover;
-    		}
-    	}
-    }    
+        &#container{
+        // Uncomment the following block when have better pics
+        // background: url(../images/containers.png) no-repeat bottom;
+        }
+        &#columns{
+            // Uncomment the following block when have better pics
+            // background: url(../images/columns.jpg) no-repeat;
+        }
+        &#novelty{
+            // Uncomment the following block when have better pics
+            // background: url(../images/containers.png) no-repeat bottom;           
+        }
+        &#taper{
+            // Uncomment the following block when have better pics
+            // background: url(../images/tapers.jpg) no-repeat left;
+        }
+        &#votive{
+            // Uncomment the following block when have better pics 
+            // background: url(../images/votives.jpg) no-repeat;
+        }
+        &#diffuser{
+            // Uncomment the following block when have better pics
+            // background: url(../images/diffuser.jpg) no-repeat;
+        }
+    }
 }
 
 footer{
     background-color: white;
     position: relative;
     bottom: 0px;
-
 }
 
 // MEDIA QUERIES
@@ -305,13 +292,13 @@ footer{
             padding-left: 15%;
             .title{
                 margin-top: $column-height - ($column-height * 0.2);
+                padding-bottom: 1%;
                 p{
                     text-align: center;
                     font-size: 17px;
 
                     &:nth-child(even){
-                        font-size: 16px;
-                        padding-bottom: 1px;
+                        font-size: 16px;                       
                     }
                 }
             }
@@ -325,6 +312,8 @@ footer{
     main{
         .column{
             height: $column-height;
+            width: 30%;
+            padding-left: 19%;
             .title{
                 margin-top: $column-height - ($column-height * 0.2);
             }
@@ -332,6 +321,22 @@ footer{
     }
 }
 
+@media only screen and (min-width: 768px){
+    // Override previous value of column height
+    $column-height: ($column-height * 0.2) + $column-height;
+    main{
+        .column{
+            height: $column-height;
+            width: 27%;
+            padding-left: 22%;
+            
+            .title{
+                margin-top: $column-height - ($column-height * 0.2);
+                padding-bottom: 5%;
+            }
+        }
+    }
+}
 
 
 
