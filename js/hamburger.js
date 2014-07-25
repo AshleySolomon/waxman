@@ -24,8 +24,10 @@ jQuery(document).ready(function() {
         jQuery('#contentLayer').css('display', 'block');
 
         //disable all scrolling on mobile devices while menu is shown
-        jQuery('#container').bind('touchmove', function(e){e.preventDefault()});
+        jQuery('#contentLayer').bind('touchmove', function(e){e.preventDefault()});
 
+        jQuery('#contentLayer').css('overflow', "hidden");
+        jQuery('body').css('overflow', "hidden");
         //set margin for the whole container with a jquery UI animation
         jQuery("#container").animate({"left": ["70%", 'easeOutExpo']}, {
             duration: 700
