@@ -11,13 +11,11 @@ $border: 1px solid #FFF;
 // NEEDED AT MIN-WIDTH 32Opx
 $column-height: 150px;
 
-
 // basic resets
     body {
         margin: 0;
         padding: 0;
-        overflow-x:hidden;
-        // overflow-y: hidden;
+        overflow: auto;
         font-family: Arial;
         font-size: 18px;
         background-color: #3e3c3d;
@@ -79,13 +77,15 @@ $column-height: 150px;
             color: white;
             border-bottom: $border;
             text-align: left;
+
+            i{
+                float: right;
+                padding-top: 3px;
+            }
         }
-        ul{
+        .sub-category{
             margin: 0 0;
             padding: 0 0;
-            max-height: 150px;
-            overflow-y: auto;
-            overflow-x: hidden;
             border-bottom: $border;
             li{
                 padding: 5px 0 5px 20px;
@@ -95,9 +95,17 @@ $column-height: 150px;
                 letter-spacing: 2px;
                 color: white;
                 border-bottom: 1px dashed #FFF;
+                img{
+                    height: 30px;
+                    width: 10px;
+                }
                 &:last-child{
                     border-bottom: none;
+                    img {
+                        width: 5px;
+                    }
                 }
+
             }
         }
     }
@@ -109,17 +117,13 @@ $column-height: 150px;
     #contentLayer {
         display: none;
         height: 100%;
-        overflow-x: hidden;
-        overflow-y: auto;
+        overflow: auto;
         position: absolute;
         left: 0;
         top: 0;
-        width: 40%;
+        width: 30%;
         z-index: 5;    
     }
-
-
-
 header {   
     text-decoration: none;
     position: fixed;
@@ -162,7 +166,7 @@ header {
     .cart-info-container{
         background-color: white;
         height: 60%;
-        width: 25%; 
+        width: 19%;
         padding: 10px;
         float: right;
         display: inline-block;
@@ -286,7 +290,7 @@ footer{
             font-size: 16px;
             letter-spacing: 2px;
         }
-        ul{
+        .sub-category{
             li{
                 font-size: 14px;
                 padding-left: 35px;
