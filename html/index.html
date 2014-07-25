@@ -37,18 +37,17 @@
         }, function(){
             $("#accordion").accordion("option", "icon", icon);
         });
-    });
+    });   
     </script>
-
 </head>
 <body>
     <!--[if lt IE 7]>
-        <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve Youour experience.</p>
+        <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve Your experience.</p>
     <![endif]-->
-     <header>
+    <header>
             <div class="logo-container">
                 <div class="logo"> 
-                    <p>CANDLES<p>                                       
+                    <p>CANDLES<p>                        
                 </div>
             </div>
             <div class="cart-info-container"></div>
@@ -59,27 +58,22 @@
                     <div id="last-line"></div>
                 </div>
             </div>
-        </header>
+    </header>
 
     <!--This wrapping container is used to get the width of the whole content-->
     <div id="container">
-        <!--The Hamburger Button in the Header-->
-       
-
         <!--The mobile navigation Markup hidden via css-->
         <nav>
-            <div id="accordion">
-            <!-- candle care is just a link to page -->
+            <div id="accordion">            
                 <div class="category">CANDLE CARE</div>
-
                 <div></div>
-            <!-- our story is just a link to about page -->              
+                          
                 <div class="category">OUR STORY</div>
                 <div></div>
-            <!--container candles just links to product page  -->
+            
                 <div class="category">CONTAINER CANDLES</div>
                 <div></div>
-            <!-- column candles has list of sub categories -->
+            
                 <div class="category">
                     COLUMN CANDLES
                     <i class="fa fa-plus"></i>
@@ -92,8 +86,7 @@
                       <li>WAXMAN SIGNATURE COLUMN</li>
                     </ul>
                 </div>
-                <!-- novelty candles has list of sub categories -->
-                <div class="category">
+                               <div class="category">
                     NOVELTY CANDLES
                     <i class="fa fa-plus"></i>
                 </div>
@@ -111,7 +104,7 @@
                         <li>WAXMAN SIGNATURE BALL</li>
                     </ul>
                 </div>
-                <!-- taper candles haslist of sub categories -->
+
                 <div class="category">
                     TAPER CANDLES
                     <i class="fa fa-plus"></i>
@@ -136,10 +129,10 @@
                         </li>
                     </ul>
                 </div>
-                <!-- votive candles is just link to product page -->
+              
                 <div class="category">VOTIVE CANDLES</div>
                 <div></div>
-                <!-- diffuser suppplies is just link to product page -->
+              
                 <div class="category">DIFFUSER SUPPLIES</div>
                 <div></div>
             </div>            
@@ -149,51 +142,64 @@
         so that the content is unclickable while menu is shown-->
         <div id="contentLayer"></div>
 
-        
-        <!--The content of the site-->
         <main>
-            <div class="column left container">
-                <div class="title">
-                    <p>CONTAINER</p>
-                    <p>CANDLES</p>
+            <a href="container_candles">
+                <div class="column left container">
+                    <div class="title">
+                        <p>CONTAINER</p>
+                        <p>CANDLES</p>
+                    </div>
                 </div>
-            </div>
-            <div class="column right columns">
-                <div class="title">
-                    <p>COLUMN</p>
-                    <p>CANDLES</p>
-                </div>                
-            </div>
-            <div class="column left novelty">
-                <div class="title">
-                    <p>NOVELTY</p>
-                    <p>CANDLES</p>
+            </a>
+
+            <a href="column_candles">
+                <div class="column right columns">
+                    <div class="title">
+                        <p>COLUMN</p>
+                        <p>CANDLES</p>
+                    </div>                
                 </div>
-            </div>
-            <div class="column right taper">
-                <div class="title">
-                    <p>TAPER</p>
-                    <p>CANDLES</p>
+            </a>
+
+            <a href="novelty_candles">
+                <div class="column left novelty">
+                    <div class="title">
+                        <p>NOVELTY</p>
+                        <p>CANDLES</p>
+                    </div>
                 </div>
-            </div>
-            <div class="column left votive">
-                <div class="title">
-                    <p>VOTIVE</p>
-                    <p>CANDLES</p>
+            </a>
+
+            <a href="taper_candles">
+                <div class="column right taper">
+                    <div class="title">
+                        <p>TAPER</p>
+                        <p>CANDLES</p>
+                    </div>
                 </div>
-            </div>
-            <div class="column right diffuser">
-                <div class="title">
-                    <p>DIFFUSER</p>
-                    <p>SUPPLIES</p>
+            </a>
+
+            <a href="votive_candles">
+                <div class="column left votive">
+                    <div class="title">
+                        <p>VOTIVE</p>
+                        <p>CANDLES</p>
+                    </div>
                 </div>
-            </div>
-            
+            </a>
+
+            <a href="diffuser_supplies">
+                <div class="column right diffuser">
+                    <div class="title">
+                        <p>DIFFUSER</p>
+                        <p>SUPPLIES</p>
+                    </div>
+                </div>
+            </a>            
         </main>
         <footer>
             FOOTER
         </footer>
-
     </div>
 </body>
 </html>

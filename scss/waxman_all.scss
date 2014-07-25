@@ -26,6 +26,7 @@ $column-height: 150px;
         margin: 0 0;
         padding: 0 0;
     }
+    a{color: #222;}
 
 // Hamburger code
     #hamburger {
@@ -34,9 +35,7 @@ $column-height: 150px;
         padding: 2px 3px;
         background-color: black;
     }
-    /*
-    The white stripes in the hamburger button
-    */
+    //white stripes in hamburger
     #hamburger div {
         background-color: #fff;
         border: 1px solid #eee;
