@@ -216,7 +216,7 @@ main{
         .title{
             margin-top: $column-height - ($column-height * 0.24);           
             background-color: #FFF;
-            padding-bottom: 1%;
+            // padding-bottom: 1%;
             p{    		
                 padding-left: 5px;
                 padding-bottom: 7px;
@@ -261,8 +261,9 @@ main{
             padding-left: 0;
             .title{
                 width: 65%;
-                margin: 0 auto;
-                margin-top: $column-height - ($column-height * 0.24);             
+                margin-left: auto;
+                margin-right: auto;
+                // margin-top: $column-height - ($column-height * 0.24);             
             }
         }       
     }
@@ -307,7 +308,7 @@ footer{
             padding-left: 15%;
             .title{
                 margin-top: $column-height - ($column-height * 0.2);
-                padding-bottom: 1%;
+                // padding-bottom: 1%;
                 p{
                     text-align: center;
                     font-size: 17px;
@@ -326,9 +327,10 @@ footer{
                 padding-left: 0;
                 .title{
                     width: 65%;
-                    padding-bottom: 1%;
-                    margin: 0 auto;
-                    margin-top: $column-height - ($column-height * 0.2);
+                    // padding-bottom: 1%;
+                    margin-left: auto;
+                    margin-right: auto;
+                    // margin-top: $column-height - ($column-height * 0.2);
                 }
             }    
             
@@ -345,9 +347,24 @@ footer{
             width: 30%;
             padding-left: 19%;
             .title{
-                margin-top: $column-height - ($column-height * 0.2);                
+                margin-top: $column-height - ($column-height * 0.17);
+                // padding-bottom: 6px;
             }
+            &#all_columns{
+                // Uncomment the following block when have better pics 
+                // background: url(../images/votives.jpg) no-repeat;
+                width: 100%;
+                padding-left: 0;
+                .title{
+                    width: 65%;
+                    // padding-bottom: 0;
+                    margin-left: auto;
+                    margin-right: auto;
+                    // margin-top: $column-height - ($column-height * 0.2);
+                }
+            }    
         }
+        
     }
 }
 
@@ -358,12 +375,24 @@ footer{
         .column{
             height: $column-height;
             width: 27%;
-            padding-left: 22%;
-            
+            padding-left: 22%;            
             .title{
-                margin-top: $column-height - ($column-height * 0.2);
-                padding-bottom: 5%;
+                margin-top: $column-height - ($column-height * 0.14);
+                // padding-bottom: 5%;
             }
+            &#all_columns{
+                // Uncomment the following block when have better pics 
+                // background: url(../images/votives.jpg) no-repeat;
+                width: 100%;
+                padding-left: 0;
+                .title{
+                    width: 65%;
+                    // padding-bottom: 0;
+                    margin-left: auto;
+                    margin-right: auto;
+                    // margin-top: $column-height - ($column-height * 0.14);
+                }
+            }    
         }
     }
 }

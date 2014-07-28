@@ -222,7 +222,6 @@ main .column.right {
 main .column .title {
   margin-top: 114px;
   background-color: #FFF;
-  padding-bottom: 1%;
 }
 /* line 220, ../scss/waxman_column_candles.scss */
 main .column .title p {
@@ -253,11 +252,11 @@ main .column#all_columns {
 /* line 262, ../scss/waxman_column_candles.scss */
 main .column#all_columns .title {
   width: 65%;
-  margin: 0 auto;
-  margin-top: 114px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-/* line 271, ../scss/waxman_column_candles.scss */
+/* line 272, ../scss/waxman_column_candles.scss */
 footer {
   background-color: white;
   position: relative;
@@ -265,86 +264,105 @@ footer {
 }
 
 @media only screen and (min-width: 480px) {
-  /* line 280, ../scss/waxman_column_candles.scss */
+  /* line 281, ../scss/waxman_column_candles.scss */
   header .logo-container {
     width: 300px;
   }
 
-  /* line 284, ../scss/waxman_column_candles.scss */
+  /* line 285, ../scss/waxman_column_candles.scss */
   nav {
     max-height: 72%;
     overflow-y: auto;
     overflow-x: hidden;
     background-color: #3e3c3d;
   }
-  /* line 289, ../scss/waxman_column_candles.scss */
+  /* line 290, ../scss/waxman_column_candles.scss */
   nav .category {
     font-size: 16px;
     letter-spacing: 2px;
   }
-  /* line 294, ../scss/waxman_column_candles.scss */
+  /* line 295, ../scss/waxman_column_candles.scss */
   nav .sub-category li {
     font-size: 14px;
     padding-left: 35px;
   }
 
-  /* line 304, ../scss/waxman_column_candles.scss */
+  /* line 305, ../scss/waxman_column_candles.scss */
   main .column {
     height: 180px;
     width: 34%;
     padding-left: 15%;
   }
-  /* line 308, ../scss/waxman_column_candles.scss */
+  /* line 309, ../scss/waxman_column_candles.scss */
   main .column .title {
     margin-top: 144px;
-    padding-bottom: 1%;
   }
-  /* line 311, ../scss/waxman_column_candles.scss */
+  /* line 312, ../scss/waxman_column_candles.scss */
   main .column .title p {
     text-align: center;
     font-size: 17px;
     padding-bottom: 7px;
     padding-top: 7px;
   }
-  /* line 317, ../scss/waxman_column_candles.scss */
+  /* line 318, ../scss/waxman_column_candles.scss */
   main .column .title p:nth-child(even) {
     font-size: 16px;
   }
-  /* line 322, ../scss/waxman_column_candles.scss */
+  /* line 323, ../scss/waxman_column_candles.scss */
   main .column#all_columns {
     width: 100%;
     padding-left: 0;
   }
-  /* line 327, ../scss/waxman_column_candles.scss */
+  /* line 328, ../scss/waxman_column_candles.scss */
   main .column#all_columns .title {
     width: 65%;
-    padding-bottom: 1%;
-    margin: 0 auto;
-    margin-top: 144px;
+    margin-left: auto;
+    margin-right: auto;
   }
 }
 @media only screen and (min-width: 640px) {
-  /* line 343, ../scss/waxman_column_candles.scss */
+  /* line 345, ../scss/waxman_column_candles.scss */
   main .column {
     height: 216px;
     width: 30%;
     padding-left: 19%;
   }
-  /* line 347, ../scss/waxman_column_candles.scss */
+  /* line 349, ../scss/waxman_column_candles.scss */
   main .column .title {
-    margin-top: 172.8px;
+    margin-top: 179.28px;
+  }
+  /* line 353, ../scss/waxman_column_candles.scss */
+  main .column#all_columns {
+    width: 100%;
+    padding-left: 0;
+  }
+  /* line 358, ../scss/waxman_column_candles.scss */
+  main .column#all_columns .title {
+    width: 65%;
+    margin-left: auto;
+    margin-right: auto;
   }
 }
 @media only screen and (min-width: 768px) {
-  /* line 358, ../scss/waxman_column_candles.scss */
+  /* line 375, ../scss/waxman_column_candles.scss */
   main .column {
     height: 259.2px;
     width: 27%;
     padding-left: 22%;
   }
-  /* line 363, ../scss/waxman_column_candles.scss */
+  /* line 379, ../scss/waxman_column_candles.scss */
   main .column .title {
-    margin-top: 207.36px;
-    padding-bottom: 5%;
+    margin-top: 222.912px;
+  }
+  /* line 383, ../scss/waxman_column_candles.scss */
+  main .column#all_columns {
+    width: 100%;
+    padding-left: 0;
+  }
+  /* line 388, ../scss/waxman_column_candles.scss */
+  main .column#all_columns .title {
+    width: 65%;
+    margin-left: auto;
+    margin-right: auto;
   }
 }
