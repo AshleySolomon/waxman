@@ -319,6 +319,18 @@ footer{
                     }
                 }
             }
+            &#all_columns{
+            // Uncomment the following block when have better pics 
+            // background: url(../images/votives.jpg) no-repeat;
+                width: 100%;
+                padding-left: 0;
+                .title{
+                    width: 65%;
+                    padding-bottom: 1%;
+                    margin: 0 auto;
+                    margin-top: $column-height - ($column-height * 0.2);
+                }
+            }    
             
         }
     }
