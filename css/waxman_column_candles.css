@@ -1,0 +1,338 @@
+/* line 15, ../scss/waxman_column_candles.scss */
+body {
+  margin: 0;
+  padding: 0;
+  overflow: auto;
+  font-family: Arial;
+  font-size: 18px;
+  background-color: #3e3c3d;
+  height: 100%;
+  overflow-y: auto;
+}
+
+/* line 25, ../scss/waxman_column_candles.scss */
+p {
+  margin: 0 0;
+  padding: 0 0;
+}
+
+/* line 29, ../scss/waxman_column_candles.scss */
+a {
+  color: #222;
+  text-decoration: none;
+}
+
+/* line 34, ../scss/waxman_column_candles.scss */
+#hamburger {
+  position: relative;
+  width: 25px;
+  padding: 2px 3px;
+  background-color: black;
+  display: inline-block;
+  margin-right: 6px;
+}
+
+/* line 43, ../scss/waxman_column_candles.scss */
+#hamburger div {
+  background-color: #fff;
+  border: 1px solid #eee;
+  border-radius: 1px;
+  height: 2px;
+  width: 80%;
+  margin: 3px auto;
+}
+
+/* line 51, ../scss/waxman_column_candles.scss */
+#filters {
+  display: inline-block;
+  background-color: red;
+  height: 28px;
+  width: 30px;
+}
+
+/*
+The navigation container in the background
+*/
+/* line 60, ../scss/waxman_column_candles.scss */
+nav {
+  left: 0px;
+  top: 136px;
+  position: fixed;
+  z-index: 0;
+  width: 70%;
+  max-height: 72%;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  overflow-y: auto;
+  overflow-x: hidden;
+  background: #3e3c3d;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#3e3c3d', endColorstr='#2d2c2d',GradientType=0 );
+}
+/* line 81, ../scss/waxman_column_candles.scss */
+nav .category {
+  padding: 5px 10px;
+  font-size: 14px;
+  font-family: "Paytone One", sans-serif;
+  letter-spacing: 1px;
+  color: white;
+  border-bottom: 1px solid white;
+  text-align: left;
+}
+/* line 90, ../scss/waxman_column_candles.scss */
+nav .category i {
+  float: right;
+  padding-top: 3px;
+}
+/* line 95, ../scss/waxman_column_candles.scss */
+nav .sub-category {
+  margin: 0 0;
+  padding: 0 0;
+  border-bottom: 1px solid white;
+}
+/* line 99, ../scss/waxman_column_candles.scss */
+nav .sub-category li {
+  padding: 5px 0 5px 20px;
+  font-size: 12px;
+  font-family: "Shadows Into Light Two", cursive;
+  font-weight: bold;
+  letter-spacing: 2px;
+  color: white;
+  border-bottom: 1px dashed #FFF;
+}
+/* line 107, ../scss/waxman_column_candles.scss */
+nav .sub-category li img {
+  height: 30px;
+  width: 10px;
+}
+/* line 111, ../scss/waxman_column_candles.scss */
+nav .sub-category li:last-child {
+  border-bottom: none;
+}
+/* line 113, ../scss/waxman_column_candles.scss */
+nav .sub-category li:last-child img {
+  width: 5px;
+}
+
+/*
+The Layer that will be layed over the content
+so that the content is unclickable while menu is shown
+*/
+/* line 126, ../scss/waxman_column_candles.scss */
+#contentLayer {
+  display: none;
+  height: 100%;
+  overflow: auto;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 30%;
+  z-index: 5;
+}
+
+/* line 136, ../scss/waxman_column_candles.scss */
+header {
+  text-decoration: none;
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+  -webkit-box-shadow: 0px 3px 7px 0px rgba(0, 0, 0, 0.4);
+  box-shadow: 0px 3px 7px 0px rgba(0, 0, 0, 0.4);
+  height: 130px;
+  width: 100%;
+  background-color: #DDC;
+}
+/* line 149, ../scss/waxman_column_candles.scss */
+header .logo-container {
+  background-color: whitesmoke;
+  height: 60%;
+  width: 200px;
+  padding: 10px;
+  display: inline-block;
+  vertical-align: top;
+}
+/* line 157, ../scss/waxman_column_candles.scss */
+header .logo-container .logo {
+  height: 100%;
+  width: 80%;
+  margin: 10px auto 0px auto;
+  background: url("../images/waxman_logo.svg") no-repeat top;
+}
+/* line 162, ../scss/waxman_column_candles.scss */
+header .logo-container .logo p {
+  margin: 0 0;
+  text-align: right;
+  padding-top: 40px;
+  font-size: 25px;
+  font-family: "Shadows Into Light Two", cursive;
+  text-shadow: -1px -1px 0 white, 1px -1px 0 white, -1px 1px 0 white, 1px 1px 0 white;
+  font-weight: bold;
+}
+/* line 175, ../scss/waxman_column_candles.scss */
+header .cart-info-container {
+  background-color: white;
+  height: 60%;
+  width: 19%;
+  padding: 10px;
+  float: right;
+  display: inline-block;
+  vertical-align: top;
+}
+/* line 185, ../scss/waxman_column_candles.scss */
+header .nav-container {
+  background-color: gray;
+  padding: 6px;
+  margin-top: 0px;
+  height: 28px;
+}
+
+/* line 193, ../scss/waxman_column_candles.scss */
+#container {
+  position: relative;
+  left: 0;
+}
+
+/* line 197, ../scss/waxman_column_candles.scss */
+main {
+  background-color: #FFFFFF;
+  padding: 150px 10px 10px 10px;
+  position: relative;
+  width: auto;
+  -webkit-box-shadow: -10px 0px 9px 0px rgba(0, 0, 0, 0.4);
+  box-shadow: -10px 0px 9px 0px rgba(0, 0, 0, 0.4);
+}
+/* line 204, ../scss/waxman_column_candles.scss */
+main .column {
+  width: 38%;
+  padding-left: 10%;
+  height: 150px;
+  display: inline-block;
+  margin-bottom: 15px;
+  vertical-align: top;
+  background-color: black;
+  background-size: cover;
+}
+/* line 213, ../scss/waxman_column_candles.scss */
+main .column.right {
+  float: right;
+}
+/* line 216, ../scss/waxman_column_candles.scss */
+main .column .title {
+  margin-top: 114px;
+  background-color: #FFF;
+  padding-bottom: 1%;
+}
+/* line 220, ../scss/waxman_column_candles.scss */
+main .column .title p {
+  padding-left: 5px;
+  padding-bottom: 7px;
+  padding-top: 7px;
+  text-align: center;
+  font-family: "Paytone One", sans-serif;
+  font-size: 15px;
+}
+/* line 228, ../scss/waxman_column_candles.scss */
+main .column .title p:nth-child(even) {
+  margin-top: -18px;
+  padding-bottom: 0;
+  background-color: transparent;
+  color: black;
+  text-shadow: -1px -1px 0 white, 1px -1px 0 white, -1px 1px 0 white, 1px 1px 0 white;
+  text-align: right;
+  font-family: "Shadows Into Light Two", cursive;
+  font-weight: bold;
+  font-size: 14px;
+}
+/* line 257, ../scss/waxman_column_candles.scss */
+main .column#all_columns {
+  width: 100%;
+  padding-left: 0;
+}
+/* line 262, ../scss/waxman_column_candles.scss */
+main .column#all_columns .title {
+  width: 65%;
+  margin: 0 auto;
+  margin-top: 114px;
+}
+
+/* line 271, ../scss/waxman_column_candles.scss */
+footer {
+  background-color: white;
+  position: relative;
+  bottom: 0px;
+}
+
+@media only screen and (min-width: 480px) {
+  /* line 280, ../scss/waxman_column_candles.scss */
+  header .logo-container {
+    width: 300px;
+  }
+
+  /* line 284, ../scss/waxman_column_candles.scss */
+  nav {
+    max-height: 72%;
+    overflow-y: auto;
+    overflow-x: hidden;
+    background-color: #3e3c3d;
+  }
+  /* line 289, ../scss/waxman_column_candles.scss */
+  nav .category {
+    font-size: 16px;
+    letter-spacing: 2px;
+  }
+  /* line 294, ../scss/waxman_column_candles.scss */
+  nav .sub-category li {
+    font-size: 14px;
+    padding-left: 35px;
+  }
+
+  /* line 304, ../scss/waxman_column_candles.scss */
+  main .column {
+    height: 180px;
+    width: 34%;
+    padding-left: 15%;
+  }
+  /* line 308, ../scss/waxman_column_candles.scss */
+  main .column .title {
+    margin-top: 144px;
+    padding-bottom: 1%;
+  }
+  /* line 311, ../scss/waxman_column_candles.scss */
+  main .column .title p {
+    text-align: center;
+    font-size: 17px;
+    padding-bottom: 7px;
+    padding-top: 7px;
+  }
+  /* line 317, ../scss/waxman_column_candles.scss */
+  main .column .title p:nth-child(even) {
+    font-size: 16px;
+  }
+}
+@media only screen and (min-width: 640px) {
+  /* line 331, ../scss/waxman_column_candles.scss */
+  main .column {
+    height: 216px;
+    width: 30%;
+    padding-left: 19%;
+  }
+  /* line 335, ../scss/waxman_column_candles.scss */
+  main .column .title {
+    margin-top: 172.8px;
+  }
+}
+@media only screen and (min-width: 768px) {
+  /* line 346, ../scss/waxman_column_candles.scss */
+  main .column {
+    height: 259.2px;
+    width: 27%;
+    padding-left: 22%;
+  }
+  /* line 351, ../scss/waxman_column_candles.scss */
+  main .column .title {
+    margin-top: 207.36px;
+    padding-bottom: 5%;
+  }
+}
