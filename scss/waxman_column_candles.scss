@@ -48,6 +48,7 @@ $column-height: 150px;
         width: 80%;
         margin: 3px auto;    
     }
+    
     #filter-button{
         display: inline-block;
         background-color: red;
@@ -78,10 +79,10 @@ $column-height: 150px;
         // background: linear-gradient(to bottom,  #3e3c3d 0%,#2d2c2d 100%);
         filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3e3c3d', endColorstr='#2d2c2d',GradientType=0 );
         
-        #accordion{
+        #main-menu{
             display: block;
         }
-        #accordion2{
+        #filters-menu{
             display: block;
         }
         .category{  

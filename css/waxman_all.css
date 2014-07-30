@@ -28,9 +28,11 @@ a {
   width: 25px;
   padding: 2px 3px;
   background-color: black;
+  display: inline-block;
+  margin-right: 6px;
 }
 
-/* line 41, ../scss/waxman_all.scss */
+/* line 43, ../scss/waxman_all.scss */
 #hamburger div {
   background-color: #fff;
   border: 1px solid #eee;
@@ -40,10 +42,18 @@ a {
   margin: 3px auto;
 }
 
+/* line 52, ../scss/waxman_all.scss */
+#filter-button {
+  display: inline-block;
+  background-color: red;
+  height: 28px;
+  width: 30px;
+}
+
 /*
 The navigation container in the background
 */
-/* line 52, ../scss/waxman_all.scss */
+/* line 61, ../scss/waxman_all.scss */
 nav {
   left: 0px;
   top: 136px;
@@ -59,7 +69,15 @@ nav {
   background: #3e3c3d;
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#3e3c3d', endColorstr='#2d2c2d',GradientType=0 );
 }
-/* line 73, ../scss/waxman_all.scss */
+/* line 82, ../scss/waxman_all.scss */
+nav #main-menu {
+  display: block;
+}
+/* line 85, ../scss/waxman_all.scss */
+nav #filters-menu {
+  display: block;
+}
+/* line 88, ../scss/waxman_all.scss */
 nav .category {
   padding: 5px 10px;
   font-size: 14px;
@@ -69,18 +87,18 @@ nav .category {
   border-bottom: 1px solid white;
   text-align: left;
 }
-/* line 82, ../scss/waxman_all.scss */
+/* line 97, ../scss/waxman_all.scss */
 nav .category i {
   float: right;
   padding-top: 3px;
 }
-/* line 87, ../scss/waxman_all.scss */
+/* line 102, ../scss/waxman_all.scss */
 nav .sub-category {
   margin: 0 0;
   padding: 0 0;
   border-bottom: 1px solid white;
 }
-/* line 91, ../scss/waxman_all.scss */
+/* line 106, ../scss/waxman_all.scss */
 nav .sub-category li {
   padding: 5px 0 5px 20px;
   font-size: 12px;
@@ -90,16 +108,16 @@ nav .sub-category li {
   color: white;
   border-bottom: 1px dashed #FFF;
 }
-/* line 99, ../scss/waxman_all.scss */
+/* line 114, ../scss/waxman_all.scss */
 nav .sub-category li img {
   height: 30px;
   width: 10px;
 }
-/* line 103, ../scss/waxman_all.scss */
+/* line 118, ../scss/waxman_all.scss */
 nav .sub-category li:last-child {
   border-bottom: none;
 }
-/* line 105, ../scss/waxman_all.scss */
+/* line 120, ../scss/waxman_all.scss */
 nav .sub-category li:last-child img {
   width: 5px;
 }
@@ -108,7 +126,7 @@ nav .sub-category li:last-child img {
 The Layer that will be layed over the content
 so that the content is unclickable while menu is shown
 */
-/* line 118, ../scss/waxman_all.scss */
+/* line 133, ../scss/waxman_all.scss */
 #contentLayer {
   display: none;
   height: 100%;
@@ -120,7 +138,7 @@ so that the content is unclickable while menu is shown
   z-index: 5;
 }
 
-/* line 128, ../scss/waxman_all.scss */
+/* line 144, ../scss/waxman_all.scss */
 header {
   text-decoration: none;
   position: fixed;
@@ -134,7 +152,7 @@ header {
   width: 100%;
   background-color: #DDC;
 }
-/* line 141, ../scss/waxman_all.scss */
+/* line 157, ../scss/waxman_all.scss */
 header .logo-container {
   background-color: whitesmoke;
   height: 60%;
@@ -143,14 +161,14 @@ header .logo-container {
   display: inline-block;
   vertical-align: top;
 }
-/* line 149, ../scss/waxman_all.scss */
+/* line 165, ../scss/waxman_all.scss */
 header .logo-container .logo {
   height: 100%;
   width: 80%;
   margin: 10px auto 0px auto;
   background: url("../images/waxman_logo.svg") no-repeat top;
 }
-/* line 154, ../scss/waxman_all.scss */
+/* line 170, ../scss/waxman_all.scss */
 header .logo-container .logo p {
   margin: 0 0;
   text-align: right;
@@ -160,7 +178,7 @@ header .logo-container .logo p {
   text-shadow: -1px -1px 0 white, 1px -1px 0 white, -1px 1px 0 white, 1px 1px 0 white;
   font-weight: bold;
 }
-/* line 167, ../scss/waxman_all.scss */
+/* line 183, ../scss/waxman_all.scss */
 header .cart-info-container {
   background-color: white;
   height: 60%;
@@ -170,20 +188,21 @@ header .cart-info-container {
   display: inline-block;
   vertical-align: top;
 }
-/* line 177, ../scss/waxman_all.scss */
+/* line 193, ../scss/waxman_all.scss */
 header .nav-container {
   background-color: gray;
-  padding: 5px 10px;
+  padding: 6px;
   margin-top: 0px;
+  height: 28px;
 }
 
-/* line 184, ../scss/waxman_all.scss */
+/* line 201, ../scss/waxman_all.scss */
 #container {
   position: relative;
   left: 0;
 }
 
-/* line 188, ../scss/waxman_all.scss */
+/* line 205, ../scss/waxman_all.scss */
 main {
   background-color: #FFFFFF;
   padding: 150px 10px 10px 10px;
@@ -192,7 +211,7 @@ main {
   -webkit-box-shadow: -10px 0px 9px 0px rgba(0, 0, 0, 0.4);
   box-shadow: -10px 0px 9px 0px rgba(0, 0, 0, 0.4);
 }
-/* line 195, ../scss/waxman_all.scss */
+/* line 212, ../scss/waxman_all.scss */
 main .column {
   width: 38%;
   padding-left: 10%;
@@ -203,24 +222,24 @@ main .column {
   background-color: black;
   background-size: cover;
 }
-/* line 204, ../scss/waxman_all.scss */
+/* line 221, ../scss/waxman_all.scss */
 main .column.right {
   float: right;
 }
-/* line 207, ../scss/waxman_all.scss */
+/* line 224, ../scss/waxman_all.scss */
 main .column .title {
-  margin-top: 114px;
+  margin-top: 115.5px;
   background-color: #FFF;
 }
-/* line 210, ../scss/waxman_all.scss */
+/* line 227, ../scss/waxman_all.scss */
 main .column .title p {
-  padding-left: 5px;
-  padding-bottom: 15px;
+  padding-bottom: 7px;
+  padding-top: 7px;
   text-align: center;
   font-family: "Paytone One", sans-serif;
   font-size: 15px;
 }
-/* line 217, ../scss/waxman_all.scss */
+/* line 234, ../scss/waxman_all.scss */
 main .column .title p:nth-child(even) {
   margin-top: -18px;
   padding-bottom: 0;
@@ -232,8 +251,19 @@ main .column .title p:nth-child(even) {
   font-weight: bold;
   font-size: 14px;
 }
+/* line 263, ../scss/waxman_all.scss */
+main .column#all_columns {
+  width: 100%;
+  padding-left: 0;
+}
+/* line 268, ../scss/waxman_all.scss */
+main .column#all_columns .title {
+  width: 40%;
+  margin-left: auto;
+  margin-right: auto;
+}
 
-/* line 257, ../scss/waxman_all.scss */
+/* line 277, ../scss/waxman_all.scss */
 footer {
   background-color: white;
   position: relative;
@@ -241,72 +271,102 @@ footer {
 }
 
 @media only screen and (min-width: 480px) {
-  /* line 266, ../scss/waxman_all.scss */
+  /* line 286, ../scss/waxman_all.scss */
   header .logo-container {
     width: 300px;
   }
 
-  /* line 270, ../scss/waxman_all.scss */
+  /* line 290, ../scss/waxman_all.scss */
   nav {
     max-height: 72%;
     overflow-y: auto;
     overflow-x: hidden;
     background-color: #3e3c3d;
   }
-  /* line 275, ../scss/waxman_all.scss */
+  /* line 295, ../scss/waxman_all.scss */
   nav .category {
     font-size: 16px;
     letter-spacing: 2px;
   }
-  /* line 280, ../scss/waxman_all.scss */
+  /* line 300, ../scss/waxman_all.scss */
   nav .sub-category li {
     font-size: 14px;
     padding-left: 35px;
   }
 
-  /* line 289, ../scss/waxman_all.scss */
+  /* line 310, ../scss/waxman_all.scss */
   main .column {
     height: 180px;
     width: 34%;
     padding-left: 15%;
   }
-  /* line 293, ../scss/waxman_all.scss */
+  /* line 314, ../scss/waxman_all.scss */
   main .column .title {
     margin-top: 144px;
-    padding-bottom: 1%;
   }
-  /* line 296, ../scss/waxman_all.scss */
+  /* line 316, ../scss/waxman_all.scss */
   main .column .title p {
     text-align: center;
     font-size: 17px;
+    padding-bottom: 7px;
+    padding-top: 7px;
   }
-  /* line 300, ../scss/waxman_all.scss */
+  /* line 322, ../scss/waxman_all.scss */
   main .column .title p:nth-child(even) {
     font-size: 16px;
   }
+  /* line 327, ../scss/waxman_all.scss */
+  main .column#all_columns {
+    width: 100%;
+    padding-left: 0;
+  }
+  /* line 332, ../scss/waxman_all.scss */
+  main .column#all_columns .title {
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
 @media only screen and (min-width: 640px) {
-  /* line 313, ../scss/waxman_all.scss */
+  /* line 346, ../scss/waxman_all.scss */
   main .column {
     height: 216px;
     width: 30%;
     padding-left: 19%;
   }
-  /* line 317, ../scss/waxman_all.scss */
+  /* line 350, ../scss/waxman_all.scss */
   main .column .title {
-    margin-top: 172.8px;
+    margin-top: 179.28px;
+  }
+  /* line 353, ../scss/waxman_all.scss */
+  main .column#all_columns {
+    width: 100%;
+    padding-left: 0;
+  }
+  /* line 358, ../scss/waxman_all.scss */
+  main .column#all_columns .title {
+    margin-left: auto;
+    margin-right: auto;
   }
 }
 @media only screen and (min-width: 768px) {
-  /* line 328, ../scss/waxman_all.scss */
+  /* line 372, ../scss/waxman_all.scss */
   main .column {
     height: 259.2px;
     width: 27%;
     padding-left: 22%;
   }
-  /* line 333, ../scss/waxman_all.scss */
+  /* line 376, ../scss/waxman_all.scss */
   main .column .title {
-    margin-top: 207.36px;
-    padding-bottom: 5%;
+    margin-top: 222.912px;
+  }
+  /* line 379, ../scss/waxman_all.scss */
+  main .column#all_columns {
+    width: 100%;
+    padding-left: 0;
+  }
+  /* line 384, ../scss/waxman_all.scss */
+  main .column#all_columns .title {
+    margin-left: auto;
+    margin-right: auto;
   }
 }

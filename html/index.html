@@ -21,25 +21,27 @@
     <script src="../js/hamburger.js"></script>
     <link href='http://fonts.googleapis.com/css?family=Economica|Poiret+One|Paytone+One|Shadows+Into+Light|Walter+Turncoat|Oxygen|Inconsolata|Shadows+Into+Light+Two|Amatic+SC|Love+Ya+Like+A+Sister' rel='stylesheet' type='text/css'>
     <script>
-    $(function() {
-        var icon= {
-            header: "category"
+   $(function() {        
+        var icons={
+            header: "fa fa-plus",
+            activeHeader: "fa fa-minus"
         };
 
-        $( "#accordion" ).accordion({
-            icon: icon,
+        $("#nav-menu").accordion({
+            icons: icons,
             heightStyle: "content",
             active: false,
             collapsible: true
         });
         $("toggle").button().toggle(function(){
-            $("#accordion").accordion("option", "icon", false);
+            $("#nav-menu").accordion("option", "icon", false);
         }, function(){
-            $("#accordion").accordion("option", "icon", icon);
+            $("#nav-menu").accordion("option", "icon", icon);
         });
-    });   
+    }); 
     </script>
 </head>
+
 <body>
     <!--[if lt IE 7]>
         <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve Your experience.</p>
@@ -64,78 +66,74 @@
     <div id="container">
         <!--The mobile navigation Markup hidden via css-->
         <nav>
-            <div id="accordion">            
+            <div id="main-menu">           
                 <div class="category">CANDLE CARE</div>
-                <div></div>
-                          
                 <div class="category">OUR STORY</div>
-                <div></div>
-            
                 <div class="category">CONTAINER CANDLES</div>
-                <div></div>
-            
-                <div class="category">
-                    COLUMN CANDLES
-                    <i class="fa fa-plus"></i>
-                </div>
-                <div>                    
-                    <ul class="sub-category">
-                      <li>ENVIRONMENTAL</li>
-                      <li>LAYERS</li>
-                      <li>SPIRITUAL</li>
-                      <li>WAXMAN SIGNATURE COLUMN</li>
-                    </ul>
-                </div>
-                               <div class="category">
-                    NOVELTY CANDLES
-                    <i class="fa fa-plus"></i>
-                </div>
-                <div>
-                    <ul class="sub-category">
-                        <li>FOOD</li>
-                        <li>KANSAS</li>
-                        <li>MUSIC</li>
-                        <li>NATURE</li>
-                        <li>SEASONAL</li>
-                        <li>SPIRITUAL</li>
-                        <li>SPORTS</li>
-                        <li>WEDDING</li>
-                        <li>WESTERN</li>
-                        <li>WAXMAN SIGNATURE BALL</li>
-                    </ul>
-                </div>
+                <div id="nav-menu">
+                <!-- Columns -->
+                    <div class="category">
+                        COLUMN CANDLES
+                    </div>
+                    <div>                    
+                        <ul class="sub-category">
+                          <li>ENVIRONMENTAL</li>
+                          <li>LAYERS</li>
+                          <li>SPIRITUAL</li>
+                          <li>WAXMAN SIGNATURE COLUMN</li>
+                        </ul>
+                    </div>
+                <!---->
 
-                <div class="category">
-                    TAPER CANDLES
-                    <i class="fa fa-plus"></i>
+                <!-- Novelty -->
+                    <div class="category">
+                        NOVELTY CANDLES
+                    </div>
+                    <div>
+                        <ul class="sub-category">
+                            <li>FOOD</li>
+                            <li>KANSAS</li>
+                            <li>MUSIC</li>
+                            <li>NATURE</li>
+                            <li>SEASONAL</li>
+                            <li>SPIRITUAL</li>
+                            <li>SPORTS</li>
+                            <li>WEDDING</li>
+                            <li>WESTERN</li>
+                            <li>WAXMAN SIGNATURE BALL</li>
+                        </ul>
+                    </div>
+                <!--  -->
+
+                <!-- Tapers -->
+                    <div class="category">
+                        TAPER CANDLES
+                    </div>
+                    <div>
+                        <ul class="sub-category">
+                            <li>
+                                <img alt="Ribbon Tapers" src="../images/ribbons_taper.gif">
+                                RIBBONS                      
+                            </li>
+                            <li>
+                                <img src="../images/spirals_taper.gif">
+                                SPIRALS
+                            </li>
+                            <li>
+                                <img src="../images/thumbs_taper.gif">
+                                THUMBS
+                            </li>
+                            <li>
+                                <img src="../images/original_taper.gif">
+                                WAXMAN ORIGINAL
+                            </li>
+                        </ul>
+                    </div>
+                <!--  -->
                 </div>
-                <div>
-                    <ul class="sub-category">
-                        <li>
-                            <img src="../images/ribbons_taper.gif">
-                            RIBBONS                      
-                        </li>
-                        <li>
-                            <img src="../images/spirals_taper.gif">
-                            SPIRALS
-                        </li>
-                        <li>
-                            <img src="../images/thumbs_taper.gif">
-                            THUMBS
-                        </li>
-                        <li>
-                            <img src="../images/original_taper.gif">
-                            WAXMAN ORIGINAL
-                        </li>
-                    </ul>
-                </div>
-              
                 <div class="category">VOTIVE CANDLES</div>
-                <div></div>
-              
                 <div class="category">DIFFUSER SUPPLIES</div>
-                <div></div>
-            </div>            
+            </div>
         </nav>
 
         <!--The Layer that will be layed over the content

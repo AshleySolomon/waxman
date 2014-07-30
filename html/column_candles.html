@@ -12,155 +12,151 @@
     <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
     <link rel="stylesheet" href="../css/normalize.css">
     <link rel="stylesheet" href="../css/main.css">
-    <link rel="stylesheet" href="../css/waxman_column_candles.css">
+    <link rel="stylesheet" href="../css/waxman_all.css">
     <link rel="stylesheet" href="../css/font-awesome-4.1.0/css/font-awesome.css">
-
 
     <script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
     <script src="http://code.jquery.com/ui/1.10.3/jquery-ui.js"></script>
     <script src="../js/hamburger.js"></script>
     <link href='http://fonts.googleapis.com/css?family=Economica|Poiret+One|Paytone+One|Shadows+Into+Light|Walter+Turncoat|Oxygen|Inconsolata|Shadows+Into+Light+Two|Amatic+SC|Love+Ya+Like+A+Sister' rel='stylesheet' type='text/css'>
     <script>
-    $(function() {
-        
+    $(function() {        
         var icons={
             header: "fa fa-plus",
             activeHeader: "fa fa-minus"
         };
 
-        $( "#accordion" ).accordion({
+        $("#nav-menu").accordion({
             icons: icons,
             heightStyle: "content",
             active: false,
             collapsible: true
         });
         $("toggle").button().toggle(function(){
-            $("#accordion").accordion("option", "icon", false);
+            $("#nav-menu").accordion("option", "icon", false);
         }, function(){
-            $("#accordion").accordion("option", "icon", icon);
+            $("#nav-menu").accordion("option", "icon", icon);
         });
     });
 
-    $(function() {
-        var icon= {
-            header: "category"
+    $(function() {        
+        var icons={
+            header: "fa fa-plus",
+            activeHeader: "fa fa-minus"
         };
 
-        $( "#accordion2" ).accordion({
-            icon: icon,
+        $( "#filters-menu" ).accordion({
+            icons: icons,
             heightStyle: "content",
             active: false,
             collapsible: true
         });
         $("toggle").button().toggle(function(){
-            $("#accordion2").accordion("option", "icon", false);
+            $("#filters-menu").accordion("option", "icon", false);
         }, function(){
-            $("#accordion2").accordion("option", "icon", icon);
+            $("#filters-menu").accordion("option", "icon", icon);
         });
-    });   
+    });
     </script>
 </head>
 <body>
-    <!--[if lt IE 7]>
-        <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve Your experience.</p>
-    <![endif]-->
+<!--[if lt IE 7]
+    <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve Your experience.</p>
+    endif]-->
+<!-- collapse point to hide IE 7 notice -->
     <header>
-            <div class="logo-container">
-                <a href="index.html">
-                    <div class="logo"> 
-                        <p>CANDLES<p>          
-                    </div>
-                </a>
-            </div>
-            <div class="cart-info-container"></div>
-            <div class="nav-container">
-                <div id="hamburger">
-                    <div></div>
-                    <div></div>
-                    <div id="last-line"></div>
+        <div class="logo-container">
+            <a href="index.html">
+                <div class="logo"> 
+                    <p>CANDLES<p>          
                 </div>
-                <div id="filter-button">
-                </div>
+            </a>
+        </div>
+        <div class="cart-info-container"></div>
+        <div class="nav-container">
+            <div id="hamburger">
+                <div></div>
+                <div></div>
+                <div id="last-line"></div>
             </div>
+            <div id="filter-button"></div>
+        </div>
     </header>
 
     <!--This wrapping container is used to get the width of the whole content-->
     <div id="container">
         <!--The mobile navigation Markup hidden via css-->
         <nav>
-            <div id="accordion">            
+            <div id="main-menu">           
                 <div class="category">CANDLE CARE</div>
-                <div></div>
-                          
                 <div class="category">OUR STORY</div>
-                <div></div>
-            
                 <div class="category">CONTAINER CANDLES</div>
-                <div></div>
-            
-                <div class="category">
-                    COLUMN CANDLES
-                    <i class="fa fa-plus"></i>
-                </div>
-                <div>                    
-                    <ul class="sub-category">
-                      <li>ENVIRONMENTAL</li>
-                      <li>LAYERS</li>
-                      <li>SPIRITUAL</li>
-                      <li>WAXMAN SIGNATURE COLUMN</li>
-                    </ul>
-                </div>
-                <div class="category">
-                    NOVELTY CANDLES
-                    <i class="fa fa-plus"></i>
-                </div>
-                <div>
-                    <ul class="sub-category">
-                        <li>FOOD</li>
-                        <li>KANSAS</li>
-                        <li>MUSIC</li>
-                        <li>NATURE</li>
-                        <li>SEASONAL</li>
-                        <li>SPIRITUAL</li>
-                        <li>SPORTS</li>
-                        <li>WEDDING</li>
-                        <li>WESTERN</li>
-                        <li>WAXMAN SIGNATURE BALL</li>
-                    </ul>
-                </div>
+                <div id="nav-menu">
+                <!-- Columns -->
+                    <div class="category">
+                        COLUMN CANDLES
+                    </div>
+                    <div>                    
+                        <ul class="sub-category">
+                          <li>ENVIRONMENTAL</li>
+                          <li>LAYERS</li>
+                          <li>SPIRITUAL</li>
+                          <li>WAXMAN SIGNATURE COLUMN</li>
+                        </ul>
+                    </div>
+                <!---->
 
-                <div class="category">
-                    TAPER CANDLES
-                    <i class="fa fa-plus"></i>
+                <!-- Novelty -->
+                    <div class="category">
+                        NOVELTY CANDLES
+                    </div>
+                    <div>
+                        <ul class="sub-category">
+                            <li>FOOD</li>
+                            <li>KANSAS</li>
+                            <li>MUSIC</li>
+                            <li>NATURE</li>
+                            <li>SEASONAL</li>
+                            <li>SPIRITUAL</li>
+                            <li>SPORTS</li>
+                            <li>WEDDING</li>
+                            <li>WESTERN</li>
+                            <li>WAXMAN SIGNATURE BALL</li>
+                        </ul>
+                    </div>
+                <!--  -->
+
+                <!-- Tapers -->
+                    <div class="category">
+                        TAPER CANDLES
+                    </div>
+                    <div>
+                        <ul class="sub-category">
+                            <li>
+                                <img src="../images/ribbons_taper.gif">
+                                RIBBONS                      
+                            </li>
+                            <li>
+                                <img src="../images/spirals_taper.gif">
+                                SPIRALS
+                            </li>
+                            <li>
+                                <img src="../images/thumbs_taper.gif">
+                                THUMBS
+                            </li>
+                            <li>
+                                <img src="../images/original_taper.gif">
+                                WAXMAN ORIGINAL
+                            </li>
+                        </ul>
+                    </div>
+                <!--  -->
                 </div>
-                <div>
-                    <ul class="sub-category">
-                        <li>
-                            <img src="../images/ribbons_taper.gif">
-                            RIBBONS                      
-                        </li>
-                        <li>
-                            <img src="../images/spirals_taper.gif">
-                            SPIRALS
-                        </li>
-                        <li>
-                            <img src="../images/thumbs_taper.gif">
-                            THUMBS
-                        </li>
-                        <li>
-                            <img src="../images/original_taper.gif">
-                            WAXMAN ORIGINAL
-                        </li>
-                    </ul>
-                </div>
-              
                 <div class="category">VOTIVE CANDLES</div>
-                <div></div>
-              
                 <div class="category">DIFFUSER SUPPLIES</div>
-                <div></div>
-            </div> 
-            <div id="accordion2">                
+            </div>
+
+            <div id="filters-menu">                
                 <div class="category">
                     BURN TIME
                 </div>
@@ -237,13 +233,12 @@
             </div>           
         </nav>
 
-
         <!--The Layer that will be layed over the content
         so that the content is unclickable while menu is shown-->
         <div id="contentLayer"></div>
 
         <main>
-            <a href="container_candles">
+            <a href="environmental_candles.html">
                 <div class="column" id="environmental"> 
                     <div class="title">
                         <p>NATURAL</p>
@@ -251,7 +246,7 @@
                 </div>
             </a>
 
-            <a href="column_candles">
+            <a href="layers_candles.html">
                 <div class="column right" id="layers">
                     <div class="title">
                         <p>LAYERS</p>
@@ -259,7 +254,7 @@
                 </div>
             </a>
 
-            <a href="novelty_candles">
+            <a href="spiritual_candles.html">
                 <div class="column" id="spiritual">
                     <div class="title">
                         <p>SPIRITUAL</p>
@@ -267,7 +262,7 @@
                 </div>
             </a>
 
-            <a href="taper_candles">
+            <a href="signature_column_candles.html">
                 <div class="column right" id="signature">
                     <div class="title">
                         <p>SIGNATURE</p>
@@ -275,7 +270,7 @@
                 </div>
             </a>
 
-            <a href="votive_candles">
+            <a href="all_column_candles.html">
                 <div class="column" id="all_columns">
                     <div class="title">
                         <p>ALL COLUMNS</p>
