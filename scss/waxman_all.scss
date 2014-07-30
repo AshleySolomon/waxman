@@ -51,9 +51,15 @@ $column-height: 150px;
     
     #filter-button{
         display: inline-block;
-        background-color: red;
+        vertical-align: top;
+        text-align: center;
+        background-color: black;
         height: 28px;
         width: 30px;
+        i{
+            font-size: 27px;
+            color: white;
+        }
     }
     /*
     The navigation container in the background

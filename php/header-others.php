@@ -16,7 +16,9 @@
             <div></div>
             <div id="last-line"></div>
         </div>
-        <div id="filter-button"></div>
+        <div id="filter-button">
+            <i class="fa fa-filter"></i>
+        </div>
     </div>
     
 </header>
