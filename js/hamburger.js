@@ -28,8 +28,11 @@ jQuery(document).ready(function() {
 
         jQuery('#contentLayer').css('overflow', "hidden");
         jQuery('body').css('overflow', "hidden");
+
+        //hide Filters menu when Main menu is clicked
         jQuery('#accordion').css('display', 'block');
         jQuery('#accordion2').css('display', 'none');
+
         //set margin for the whole container with a jquery UI animation
         jQuery("#container").animate({"left": ["70%", 'easeOutExpo']}, {
             duration: 700
@@ -76,6 +79,8 @@ jQuery(document).ready(function() {
         jQuery('#contentLayer').css('overflow', "hidden");
 
         jQuery('body').css('overflow', "hidden");
+
+        //hide Main menu when Filters menu is clicked
         jQuery('#accordion2').css('display', 'block');
         jQuery('#accordion').css('display', 'none');
 
