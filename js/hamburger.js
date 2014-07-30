@@ -29,6 +29,8 @@ jQuery(document).ready(function() {
         jQuery('#contentLayer').css('overflow', "hidden");
         jQuery('body').css('overflow', "hidden");
 
+       
+
         //hide Filters menu when Main menu is clicked
         jQuery('#accordion').css('display', 'block');
         jQuery('#accordion2').css('display', 'none');

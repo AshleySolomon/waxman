@@ -22,12 +22,14 @@
     <link href='http://fonts.googleapis.com/css?family=Economica|Poiret+One|Paytone+One|Shadows+Into+Light|Walter+Turncoat|Oxygen|Inconsolata|Shadows+Into+Light+Two|Amatic+SC|Love+Ya+Like+A+Sister' rel='stylesheet' type='text/css'>
     <script>
     $(function() {
-        var icon= {
-            header: "category"
+        
+        var icons={
+            header: "fa fa-plus",
+            activeHeader: "fa fa-minus"
         };
 
         $( "#accordion" ).accordion({
-            icon: icon,
+            icons: icons,
             heightStyle: "content",
             active: false,
             collapsible: true
