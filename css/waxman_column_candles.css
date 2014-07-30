@@ -43,7 +43,7 @@ a {
 }
 
 /* line 51, ../scss/waxman_column_candles.scss */
-#filters {
+#filter-button {
   display: inline-block;
   background-color: red;
   height: 28px;
