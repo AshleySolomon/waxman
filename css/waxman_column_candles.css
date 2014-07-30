@@ -70,6 +70,14 @@ nav {
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#3e3c3d', endColorstr='#2d2c2d',GradientType=0 );
 }
 /* line 81, ../scss/waxman_column_candles.scss */
+nav #accordion {
+  display: block;
+}
+/* line 84, ../scss/waxman_column_candles.scss */
+nav #accordion2 {
+  display: block;
+}
+/* line 87, ../scss/waxman_column_candles.scss */
 nav .category {
   padding: 5px 10px;
   font-size: 14px;
@@ -79,18 +87,18 @@ nav .category {
   border-bottom: 1px solid white;
   text-align: left;
 }
-/* line 90, ../scss/waxman_column_candles.scss */
+/* line 96, ../scss/waxman_column_candles.scss */
 nav .category i {
   float: right;
   padding-top: 3px;
 }
-/* line 95, ../scss/waxman_column_candles.scss */
+/* line 101, ../scss/waxman_column_candles.scss */
 nav .sub-category {
   margin: 0 0;
   padding: 0 0;
   border-bottom: 1px solid white;
 }
-/* line 99, ../scss/waxman_column_candles.scss */
+/* line 105, ../scss/waxman_column_candles.scss */
 nav .sub-category li {
   padding: 5px 0 5px 20px;
   font-size: 12px;
@@ -100,16 +108,16 @@ nav .sub-category li {
   color: white;
   border-bottom: 1px dashed #FFF;
 }
-/* line 107, ../scss/waxman_column_candles.scss */
+/* line 113, ../scss/waxman_column_candles.scss */
 nav .sub-category li img {
   height: 30px;
   width: 10px;
 }
-/* line 111, ../scss/waxman_column_candles.scss */
+/* line 117, ../scss/waxman_column_candles.scss */
 nav .sub-category li:last-child {
   border-bottom: none;
 }
-/* line 113, ../scss/waxman_column_candles.scss */
+/* line 119, ../scss/waxman_column_candles.scss */
 nav .sub-category li:last-child img {
   width: 5px;
 }
@@ -118,7 +126,7 @@ nav .sub-category li:last-child img {
 The Layer that will be layed over the content
 so that the content is unclickable while menu is shown
 */
-/* line 126, ../scss/waxman_column_candles.scss */
+/* line 132, ../scss/waxman_column_candles.scss */
 #contentLayer {
   display: none;
   height: 100%;
@@ -130,7 +138,7 @@ so that the content is unclickable while menu is shown
   z-index: 5;
 }
 
-/* line 136, ../scss/waxman_column_candles.scss */
+/* line 142, ../scss/waxman_column_candles.scss */
 header {
   text-decoration: none;
   position: fixed;
@@ -144,7 +152,7 @@ header {
   width: 100%;
   background-color: #DDC;
 }
-/* line 149, ../scss/waxman_column_candles.scss */
+/* line 155, ../scss/waxman_column_candles.scss */
 header .logo-container {
   background-color: whitesmoke;
   height: 60%;
@@ -153,14 +161,14 @@ header .logo-container {
   display: inline-block;
   vertical-align: top;
 }
-/* line 157, ../scss/waxman_column_candles.scss */
+/* line 163, ../scss/waxman_column_candles.scss */
 header .logo-container .logo {
   height: 100%;
   width: 80%;
   margin: 10px auto 0px auto;
   background: url("../images/waxman_logo.svg") no-repeat top;
 }
-/* line 162, ../scss/waxman_column_candles.scss */
+/* line 168, ../scss/waxman_column_candles.scss */
 header .logo-container .logo p {
   margin: 0 0;
   text-align: right;
@@ -170,7 +178,7 @@ header .logo-container .logo p {
   text-shadow: -1px -1px 0 white, 1px -1px 0 white, -1px 1px 0 white, 1px 1px 0 white;
   font-weight: bold;
 }
-/* line 175, ../scss/waxman_column_candles.scss */
+/* line 181, ../scss/waxman_column_candles.scss */
 header .cart-info-container {
   background-color: white;
   height: 60%;
@@ -180,7 +188,7 @@ header .cart-info-container {
   display: inline-block;
   vertical-align: top;
 }
-/* line 185, ../scss/waxman_column_candles.scss */
+/* line 191, ../scss/waxman_column_candles.scss */
 header .nav-container {
   background-color: gray;
   padding: 6px;
@@ -188,13 +196,13 @@ header .nav-container {
   height: 28px;
 }
 
-/* line 193, ../scss/waxman_column_candles.scss */
+/* line 199, ../scss/waxman_column_candles.scss */
 #container {
   position: relative;
   left: 0;
 }
 
-/* line 197, ../scss/waxman_column_candles.scss */
+/* line 203, ../scss/waxman_column_candles.scss */
 main {
   background-color: #FFFFFF;
   padding: 150px 10px 10px 10px;
@@ -203,7 +211,7 @@ main {
   -webkit-box-shadow: -10px 0px 9px 0px rgba(0, 0, 0, 0.4);
   box-shadow: -10px 0px 9px 0px rgba(0, 0, 0, 0.4);
 }
-/* line 204, ../scss/waxman_column_candles.scss */
+/* line 210, ../scss/waxman_column_candles.scss */
 main .column {
   width: 38%;
   padding-left: 10%;
@@ -214,16 +222,16 @@ main .column {
   background-color: black;
   background-size: cover;
 }
-/* line 213, ../scss/waxman_column_candles.scss */
+/* line 219, ../scss/waxman_column_candles.scss */
 main .column.right {
   float: right;
 }
-/* line 216, ../scss/waxman_column_candles.scss */
+/* line 222, ../scss/waxman_column_candles.scss */
 main .column .title {
   margin-top: 115.5px;
   background-color: #FFF;
 }
-/* line 219, ../scss/waxman_column_candles.scss */
+/* line 225, ../scss/waxman_column_candles.scss */
 main .column .title p {
   padding-bottom: 7px;
   padding-top: 7px;
@@ -231,7 +239,7 @@ main .column .title p {
   font-family: "Paytone One", sans-serif;
   font-size: 15px;
 }
-/* line 226, ../scss/waxman_column_candles.scss */
+/* line 232, ../scss/waxman_column_candles.scss */
 main .column .title p:nth-child(even) {
   margin-top: -18px;
   padding-bottom: 0;
@@ -243,19 +251,19 @@ main .column .title p:nth-child(even) {
   font-weight: bold;
   font-size: 14px;
 }
-/* line 255, ../scss/waxman_column_candles.scss */
+/* line 261, ../scss/waxman_column_candles.scss */
 main .column#all_columns {
   width: 100%;
   padding-left: 0;
 }
-/* line 260, ../scss/waxman_column_candles.scss */
+/* line 266, ../scss/waxman_column_candles.scss */
 main .column#all_columns .title {
   width: 40%;
   margin-left: auto;
   margin-right: auto;
 }
 
-/* line 269, ../scss/waxman_column_candles.scss */
+/* line 275, ../scss/waxman_column_candles.scss */
 footer {
   background-color: white;
   position: relative;
@@ -263,100 +271,100 @@ footer {
 }
 
 @media only screen and (min-width: 480px) {
-  /* line 278, ../scss/waxman_column_candles.scss */
+  /* line 284, ../scss/waxman_column_candles.scss */
   header .logo-container {
     width: 300px;
   }
 
-  /* line 282, ../scss/waxman_column_candles.scss */
+  /* line 288, ../scss/waxman_column_candles.scss */
   nav {
     max-height: 72%;
     overflow-y: auto;
     overflow-x: hidden;
     background-color: #3e3c3d;
   }
-  /* line 287, ../scss/waxman_column_candles.scss */
+  /* line 293, ../scss/waxman_column_candles.scss */
   nav .category {
     font-size: 16px;
     letter-spacing: 2px;
   }
-  /* line 292, ../scss/waxman_column_candles.scss */
+  /* line 298, ../scss/waxman_column_candles.scss */
   nav .sub-category li {
     font-size: 14px;
     padding-left: 35px;
   }
 
-  /* line 302, ../scss/waxman_column_candles.scss */
+  /* line 308, ../scss/waxman_column_candles.scss */
   main .column {
     height: 180px;
     width: 34%;
     padding-left: 15%;
   }
-  /* line 306, ../scss/waxman_column_candles.scss */
+  /* line 312, ../scss/waxman_column_candles.scss */
   main .column .title {
     margin-top: 144px;
   }
-  /* line 308, ../scss/waxman_column_candles.scss */
+  /* line 314, ../scss/waxman_column_candles.scss */
   main .column .title p {
     text-align: center;
     font-size: 17px;
     padding-bottom: 7px;
     padding-top: 7px;
   }
-  /* line 314, ../scss/waxman_column_candles.scss */
+  /* line 320, ../scss/waxman_column_candles.scss */
   main .column .title p:nth-child(even) {
     font-size: 16px;
   }
-  /* line 319, ../scss/waxman_column_candles.scss */
+  /* line 325, ../scss/waxman_column_candles.scss */
   main .column#all_columns {
     width: 100%;
     padding-left: 0;
   }
-  /* line 324, ../scss/waxman_column_candles.scss */
+  /* line 330, ../scss/waxman_column_candles.scss */
   main .column#all_columns .title {
     margin-left: auto;
     margin-right: auto;
   }
 }
 @media only screen and (min-width: 640px) {
-  /* line 338, ../scss/waxman_column_candles.scss */
+  /* line 344, ../scss/waxman_column_candles.scss */
   main .column {
     height: 216px;
     width: 30%;
     padding-left: 19%;
   }
-  /* line 342, ../scss/waxman_column_candles.scss */
+  /* line 348, ../scss/waxman_column_candles.scss */
   main .column .title {
     margin-top: 179.28px;
   }
-  /* line 345, ../scss/waxman_column_candles.scss */
+  /* line 351, ../scss/waxman_column_candles.scss */
   main .column#all_columns {
     width: 100%;
     padding-left: 0;
   }
-  /* line 350, ../scss/waxman_column_candles.scss */
+  /* line 356, ../scss/waxman_column_candles.scss */
   main .column#all_columns .title {
     margin-left: auto;
     margin-right: auto;
   }
 }
 @media only screen and (min-width: 768px) {
-  /* line 364, ../scss/waxman_column_candles.scss */
+  /* line 370, ../scss/waxman_column_candles.scss */
   main .column {
     height: 259.2px;
     width: 27%;
     padding-left: 22%;
   }
-  /* line 368, ../scss/waxman_column_candles.scss */
+  /* line 374, ../scss/waxman_column_candles.scss */
   main .column .title {
     margin-top: 222.912px;
   }
-  /* line 371, ../scss/waxman_column_candles.scss */
+  /* line 377, ../scss/waxman_column_candles.scss */
   main .column#all_columns {
     width: 100%;
     padding-left: 0;
   }
-  /* line 376, ../scss/waxman_column_candles.scss */
+  /* line 382, ../scss/waxman_column_candles.scss */
   main .column#all_columns .title {
     margin-left: auto;
     margin-right: auto;

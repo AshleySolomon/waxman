@@ -28,6 +28,8 @@ jQuery(document).ready(function() {
 
         jQuery('#contentLayer').css('overflow', "hidden");
         jQuery('body').css('overflow', "hidden");
+        jQuery('#accordion').css('display', 'block');
+        jQuery('#accordion2').css('display', 'none');
         //set margin for the whole container with a jquery UI animation
         jQuery("#container").animate({"left": ["70%", 'easeOutExpo']}, {
             duration: 700
@@ -72,7 +74,11 @@ jQuery(document).ready(function() {
         jQuery('#contentLayer').bind('touchmove', function(e){e.preventDefault()});
 
         jQuery('#contentLayer').css('overflow', "hidden");
+
         jQuery('body').css('overflow', "hidden");
+        jQuery('#accordion2').css('display', 'block');
+        jQuery('#accordion').css('display', 'none');
+
         //set margin for the whole container with a jquery UI animation
         jQuery("#container").animate({"left": ["70%", 'easeOutExpo']}, {
             duration: 700

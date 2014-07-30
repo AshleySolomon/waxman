@@ -37,6 +37,24 @@
         }, function(){
             $("#accordion").accordion("option", "icon", icon);
         });
+    });
+
+    $(function() {
+        var icon= {
+            header: "category"
+        };
+
+        $( "#accordion2" ).accordion({
+            icon: icon,
+            heightStyle: "content",
+            active: false,
+            collapsible: true
+        });
+        $("toggle").button().toggle(function(){
+            $("#accordion2").accordion("option", "icon", false);
+        }, function(){
+            $("#accordion2").accordion("option", "icon", icon);
+        });
     });   
     </script>
 </head>
@@ -90,7 +108,7 @@
                       <li>WAXMAN SIGNATURE COLUMN</li>
                     </ul>
                 </div>
-                               <div class="category">
+                <div class="category">
                     NOVELTY CANDLES
                     <i class="fa fa-plus"></i>
                 </div>
@@ -139,7 +157,33 @@
               
                 <div class="category">DIFFUSER SUPPLIES</div>
                 <div></div>
-            </div>            
+            </div> 
+            <div id="accordion2">                
+                <div class="category">
+                    BURN TIME
+                </div>
+                <div>burn time stuff</div>
+                <div class="category">
+                    DIAMETER
+                </div>
+                <div>diameter stuff</div>
+                <div class="category">
+                    FRAGRANCE
+                </div>
+                <div>fragrance stuff</div>
+                <div class="category">
+                    FRANGRANCE STRENGTH
+                </div>
+                <div>fragrance strength stuff</div>
+                <div class="category">
+                    HEIGHT
+                </div>
+                <div>height stuff</div>
+                <div class="category">
+                    PRODUCT MATERIAL
+                </div>
+                <div>product material stuff</div>                
+            </div>           
         </nav>
 
 
