@@ -87,6 +87,7 @@ nav #filters-menu {
 }
 /* line 94, ../scss/waxman_all.scss */
 nav #filters-menu form {
+<<<<<<< HEAD
   padding-top: 10px;
   width: 200px;
   margin: 0 auto;
@@ -96,11 +97,24 @@ nav #filters-menu form .check {
   margin-bottom: 5px;
 }
 /* line 102, ../scss/waxman_all.scss */
+=======
+  padding: 10px 0 5px 15px;
+  height: 90px;
+  border-bottom: 1px solid white;
+}
+/* line 98, ../scss/waxman_all.scss */
+nav #filters-menu form .check {
+  display: inline-block;
+  margin-bottom: 5px;
+}
+/* line 101, ../scss/waxman_all.scss */
+>>>>>>> 48be6693332e8803c69bb874a814153bb6963c27
 nav #filters-menu form .check img {
   vertical-align: top;
   height: 23px;
 }
 /* line 106, ../scss/waxman_all.scss */
+<<<<<<< HEAD
 nav #filters-menu form .check p {
   display: inline-block;
   color: white;
@@ -109,6 +123,12 @@ nav #filters-menu form .check p {
   letter-spacing: 2px;
 }
 /* line 117, ../scss/waxman_all.scss */
+=======
+nav #filters-menu form .set-width {
+  width: 49%;
+}
+/* line 111, ../scss/waxman_all.scss */
+>>>>>>> 48be6693332e8803c69bb874a814153bb6963c27
 nav .category {
   padding: 5px 10px;
   font-size: 14px;
@@ -118,18 +138,30 @@ nav .category {
   border-bottom: 1px solid white;
   text-align: left;
 }
+<<<<<<< HEAD
 /* line 126, ../scss/waxman_all.scss */
+=======
+/* line 120, ../scss/waxman_all.scss */
+>>>>>>> 48be6693332e8803c69bb874a814153bb6963c27
 nav .category i {
   float: right;
   padding-top: 3px;
 }
+<<<<<<< HEAD
 /* line 131, ../scss/waxman_all.scss */
+=======
+/* line 125, ../scss/waxman_all.scss */
+>>>>>>> 48be6693332e8803c69bb874a814153bb6963c27
 nav .sub-category {
   margin: 0 0;
   padding: 0 0;
   border-bottom: 1px solid white;
 }
+<<<<<<< HEAD
 /* line 135, ../scss/waxman_all.scss */
+=======
+/* line 129, ../scss/waxman_all.scss */
+>>>>>>> 48be6693332e8803c69bb874a814153bb6963c27
 nav .sub-category li {
   padding: 5px 0 5px 20px;
   font-size: 12px;
@@ -139,16 +171,28 @@ nav .sub-category li {
   color: white;
   border-bottom: 1px dashed #FFF;
 }
+<<<<<<< HEAD
 /* line 143, ../scss/waxman_all.scss */
+=======
+/* line 137, ../scss/waxman_all.scss */
+>>>>>>> 48be6693332e8803c69bb874a814153bb6963c27
 nav .sub-category li img {
   height: 30px;
   width: 10px;
 }
+<<<<<<< HEAD
 /* line 147, ../scss/waxman_all.scss */
 nav .sub-category li:last-child {
   border-bottom: none;
 }
 /* line 149, ../scss/waxman_all.scss */
+=======
+/* line 141, ../scss/waxman_all.scss */
+nav .sub-category li:last-child {
+  border-bottom: none;
+}
+/* line 143, ../scss/waxman_all.scss */
+>>>>>>> 48be6693332e8803c69bb874a814153bb6963c27
 nav .sub-category li:last-child img {
   width: 5px;
 }
@@ -157,7 +201,11 @@ nav .sub-category li:last-child img {
 The Layer that will be layed over the content
 so that the content is unclickable while menu is shown
 */
+<<<<<<< HEAD
 /* line 162, ../scss/waxman_all.scss */
+=======
+/* line 156, ../scss/waxman_all.scss */
+>>>>>>> 48be6693332e8803c69bb874a814153bb6963c27
 #contentLayer {
   display: none;
   height: 100%;
@@ -169,13 +217,21 @@ so that the content is unclickable while menu is shown
   z-index: 5;
 }
 
+<<<<<<< HEAD
 /* line 172, ../scss/waxman_all.scss */
+=======
+/* line 166, ../scss/waxman_all.scss */
+>>>>>>> 48be6693332e8803c69bb874a814153bb6963c27
 .ui-icon {
   float: right;
   margin-top: 5px;
 }
 
+<<<<<<< HEAD
 /* line 176, ../scss/waxman_all.scss */
+=======
+/* line 170, ../scss/waxman_all.scss */
+>>>>>>> 48be6693332e8803c69bb874a814153bb6963c27
 header {
   text-decoration: none;
   position: fixed;
@@ -189,7 +245,11 @@ header {
   width: 100%;
   background-color: #DDC;
 }
+<<<<<<< HEAD
 /* line 189, ../scss/waxman_all.scss */
+=======
+/* line 183, ../scss/waxman_all.scss */
+>>>>>>> 48be6693332e8803c69bb874a814153bb6963c27
 header .logo-container {
   background-color: whitesmoke;
   height: 60%;
@@ -198,14 +258,22 @@ header .logo-container {
   display: inline-block;
   vertical-align: top;
 }
+<<<<<<< HEAD
 /* line 197, ../scss/waxman_all.scss */
+=======
+/* line 191, ../scss/waxman_all.scss */
+>>>>>>> 48be6693332e8803c69bb874a814153bb6963c27
 header .logo-container .logo {
   height: 100%;
   width: 80%;
   margin: 10px auto 0px auto;
   background: url("../images/waxman_logo.svg") no-repeat top;
 }
+<<<<<<< HEAD
 /* line 202, ../scss/waxman_all.scss */
+=======
+/* line 196, ../scss/waxman_all.scss */
+>>>>>>> 48be6693332e8803c69bb874a814153bb6963c27
 header .logo-container .logo p {
   margin: 0 0;
   text-align: right;
@@ -215,7 +283,11 @@ header .logo-container .logo p {
   text-shadow: -1px -1px 0 white, 1px -1px 0 white, -1px 1px 0 white, 1px 1px 0 white;
   font-weight: bold;
 }
+<<<<<<< HEAD
 /* line 215, ../scss/waxman_all.scss */
+=======
+/* line 209, ../scss/waxman_all.scss */
+>>>>>>> 48be6693332e8803c69bb874a814153bb6963c27
 header .cart-info-container {
   background-color: white;
   height: 60%;
@@ -225,7 +297,11 @@ header .cart-info-container {
   display: inline-block;
   vertical-align: top;
 }
+<<<<<<< HEAD
 /* line 225, ../scss/waxman_all.scss */
+=======
+/* line 219, ../scss/waxman_all.scss */
+>>>>>>> 48be6693332e8803c69bb874a814153bb6963c27
 header .nav-container {
   background-color: gray;
   padding: 6px;
@@ -233,13 +309,21 @@ header .nav-container {
   height: 28px;
 }
 
+<<<<<<< HEAD
 /* line 233, ../scss/waxman_all.scss */
+=======
+/* line 227, ../scss/waxman_all.scss */
+>>>>>>> 48be6693332e8803c69bb874a814153bb6963c27
 #container {
   position: relative;
   left: 0;
 }
 
+<<<<<<< HEAD
 /* line 237, ../scss/waxman_all.scss */
+=======
+/* line 231, ../scss/waxman_all.scss */
+>>>>>>> 48be6693332e8803c69bb874a814153bb6963c27
 main {
   background-color: #FFFFFF;
   padding: 150px 10px 10px 10px;
@@ -248,7 +332,11 @@ main {
   -webkit-box-shadow: -10px 0px 9px 0px rgba(0, 0, 0, 0.4);
   box-shadow: -10px 0px 9px 0px rgba(0, 0, 0, 0.4);
 }
+<<<<<<< HEAD
 /* line 244, ../scss/waxman_all.scss */
+=======
+/* line 238, ../scss/waxman_all.scss */
+>>>>>>> 48be6693332e8803c69bb874a814153bb6963c27
 main .column {
   width: 38%;
   padding-left: 10%;
@@ -259,16 +347,28 @@ main .column {
   background-color: black;
   background-size: cover;
 }
+<<<<<<< HEAD
 /* line 253, ../scss/waxman_all.scss */
 main .column.right {
   float: right;
 }
 /* line 256, ../scss/waxman_all.scss */
+=======
+/* line 247, ../scss/waxman_all.scss */
+main .column.right {
+  float: right;
+}
+/* line 250, ../scss/waxman_all.scss */
+>>>>>>> 48be6693332e8803c69bb874a814153bb6963c27
 main .column .title {
   margin-top: 115.5px;
   background-color: #FFF;
 }
+<<<<<<< HEAD
 /* line 259, ../scss/waxman_all.scss */
+=======
+/* line 253, ../scss/waxman_all.scss */
+>>>>>>> 48be6693332e8803c69bb874a814153bb6963c27
 main .column .title p {
   padding-bottom: 7px;
   padding-top: 7px;
@@ -276,7 +376,11 @@ main .column .title p {
   font-family: "Paytone One", sans-serif;
   font-size: 15px;
 }
+<<<<<<< HEAD
 /* line 266, ../scss/waxman_all.scss */
+=======
+/* line 260, ../scss/waxman_all.scss */
+>>>>>>> 48be6693332e8803c69bb874a814153bb6963c27
 main .column .title p:nth-child(even) {
   margin-top: -18px;
   padding-bottom: 0;
@@ -288,19 +392,31 @@ main .column .title p:nth-child(even) {
   font-weight: bold;
   font-size: 14px;
 }
+<<<<<<< HEAD
 /* line 295, ../scss/waxman_all.scss */
+=======
+/* line 289, ../scss/waxman_all.scss */
+>>>>>>> 48be6693332e8803c69bb874a814153bb6963c27
 main .column#all_columns {
   width: 100%;
   padding-left: 0;
 }
+<<<<<<< HEAD
 /* line 300, ../scss/waxman_all.scss */
+=======
+/* line 294, ../scss/waxman_all.scss */
+>>>>>>> 48be6693332e8803c69bb874a814153bb6963c27
 main .column#all_columns .title {
   width: 40%;
   margin-left: auto;
   margin-right: auto;
 }
 
+<<<<<<< HEAD
 /* line 309, ../scss/waxman_all.scss */
+=======
+/* line 303, ../scss/waxman_all.scss */
+>>>>>>> 48be6693332e8803c69bb874a814153bb6963c27
 footer {
   background-color: white;
   position: relative;
@@ -308,24 +424,40 @@ footer {
 }
 
 @media only screen and (min-width: 480px) {
+<<<<<<< HEAD
   /* line 318, ../scss/waxman_all.scss */
+=======
+  /* line 312, ../scss/waxman_all.scss */
+>>>>>>> 48be6693332e8803c69bb874a814153bb6963c27
   header .logo-container {
     width: 300px;
   }
 
+<<<<<<< HEAD
   /* line 322, ../scss/waxman_all.scss */
+=======
+  /* line 316, ../scss/waxman_all.scss */
+>>>>>>> 48be6693332e8803c69bb874a814153bb6963c27
   nav {
     max-height: 72%;
     overflow-y: auto;
     overflow-x: hidden;
     background-color: #3e3c3d;
   }
+<<<<<<< HEAD
   /* line 327, ../scss/waxman_all.scss */
+=======
+  /* line 321, ../scss/waxman_all.scss */
+>>>>>>> 48be6693332e8803c69bb874a814153bb6963c27
   nav .category {
     font-size: 16px;
     letter-spacing: 2px;
   }
+<<<<<<< HEAD
   /* line 332, ../scss/waxman_all.scss */
+=======
+  /* line 326, ../scss/waxman_all.scss */
+>>>>>>> 48be6693332e8803c69bb874a814153bb6963c27
   nav .sub-category li {
     font-size: 14px;
     padding-left: 35px;
@@ -344,77 +476,142 @@ footer {
     height: 25px;
   }
 
+<<<<<<< HEAD
   /* line 355, ../scss/waxman_all.scss */
+=======
+  /* line 333, ../scss/waxman_all.scss */
+  #filters-menu .check {
+    width: 49%;
+  }
+  /* line 335, ../scss/waxman_all.scss */
+  #filters-menu .check img {
+    height: 25px;
+  }
+
+  /* line 344, ../scss/waxman_all.scss */
+>>>>>>> 48be6693332e8803c69bb874a814153bb6963c27
   main .column {
     height: 180px;
     width: 34%;
     padding-left: 15%;
   }
+<<<<<<< HEAD
   /* line 359, ../scss/waxman_all.scss */
   main .column .title {
     margin-top: 144px;
   }
   /* line 361, ../scss/waxman_all.scss */
+=======
+  /* line 348, ../scss/waxman_all.scss */
+  main .column .title {
+    margin-top: 144px;
+  }
+  /* line 350, ../scss/waxman_all.scss */
+>>>>>>> 48be6693332e8803c69bb874a814153bb6963c27
   main .column .title p {
     text-align: center;
     font-size: 17px;
     padding-bottom: 7px;
     padding-top: 7px;
   }
+<<<<<<< HEAD
   /* line 367, ../scss/waxman_all.scss */
   main .column .title p:nth-child(even) {
     font-size: 16px;
   }
   /* line 372, ../scss/waxman_all.scss */
+=======
+  /* line 356, ../scss/waxman_all.scss */
+  main .column .title p:nth-child(even) {
+    font-size: 16px;
+  }
+  /* line 361, ../scss/waxman_all.scss */
+>>>>>>> 48be6693332e8803c69bb874a814153bb6963c27
   main .column#all_columns {
     width: 100%;
     padding-left: 0;
   }
+<<<<<<< HEAD
   /* line 377, ../scss/waxman_all.scss */
+=======
+  /* line 366, ../scss/waxman_all.scss */
+>>>>>>> 48be6693332e8803c69bb874a814153bb6963c27
   main .column#all_columns .title {
     margin-left: auto;
     margin-right: auto;
   }
 }
 @media only screen and (min-width: 640px) {
+<<<<<<< HEAD
   /* line 391, ../scss/waxman_all.scss */
+=======
+  /* line 380, ../scss/waxman_all.scss */
+>>>>>>> 48be6693332e8803c69bb874a814153bb6963c27
   main .column {
     height: 216px;
     width: 30%;
     padding-left: 19%;
   }
+<<<<<<< HEAD
   /* line 395, ../scss/waxman_all.scss */
   main .column .title {
     margin-top: 179.28px;
   }
   /* line 398, ../scss/waxman_all.scss */
+=======
+  /* line 384, ../scss/waxman_all.scss */
+  main .column .title {
+    margin-top: 179.28px;
+  }
+  /* line 387, ../scss/waxman_all.scss */
+>>>>>>> 48be6693332e8803c69bb874a814153bb6963c27
   main .column#all_columns {
     width: 100%;
     padding-left: 0;
   }
+<<<<<<< HEAD
   /* line 403, ../scss/waxman_all.scss */
+=======
+  /* line 392, ../scss/waxman_all.scss */
+>>>>>>> 48be6693332e8803c69bb874a814153bb6963c27
   main .column#all_columns .title {
     margin-left: auto;
     margin-right: auto;
   }
 }
 @media only screen and (min-width: 768px) {
+<<<<<<< HEAD
   /* line 417, ../scss/waxman_all.scss */
+=======
+  /* line 406, ../scss/waxman_all.scss */
+>>>>>>> 48be6693332e8803c69bb874a814153bb6963c27
   main .column {
     height: 259.2px;
     width: 27%;
     padding-left: 22%;
   }
+<<<<<<< HEAD
   /* line 421, ../scss/waxman_all.scss */
   main .column .title {
     margin-top: 222.912px;
   }
   /* line 424, ../scss/waxman_all.scss */
+=======
+  /* line 410, ../scss/waxman_all.scss */
+  main .column .title {
+    margin-top: 222.912px;
+  }
+  /* line 413, ../scss/waxman_all.scss */
+>>>>>>> 48be6693332e8803c69bb874a814153bb6963c27
   main .column#all_columns {
     width: 100%;
     padding-left: 0;
   }
+<<<<<<< HEAD
   /* line 429, ../scss/waxman_all.scss */
+=======
+  /* line 418, ../scss/waxman_all.scss */
+>>>>>>> 48be6693332e8803c69bb874a814153bb6963c27
   main .column#all_columns .title {
     margin-left: auto;
     margin-right: auto;

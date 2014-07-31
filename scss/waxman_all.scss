@@ -91,13 +91,14 @@ $column-height: 150px;
         }
         #filters-menu{
             display: block;
+
             form{                
                 padding-top: 10px;
                 // height: 90px;
                 width: 200px;
                 margin: 0 auto;
                 
-                .check{                    
+                .check{ 
                     margin-bottom: 5px;                    
                     img{
                         vertical-align: top;
@@ -111,7 +112,6 @@ $column-height: 150px;
                         letter-spacing: 2px;
                     }
                 }
-                
             }
         }
         .category{  
@@ -346,6 +346,14 @@ footer{
             }
         }
     }        
+    }
+    #filters-menu{
+        .check{
+            width: 49%;
+            img{
+                height: 25px;
+            }
+        }
     }
 
 
