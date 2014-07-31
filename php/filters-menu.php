@@ -3,13 +3,39 @@
         BURN TIME
     </div>
     <div>
-        <ul class="sub-category">
+        <form>
+            <div class="check set-width" title="1-10 Hours">
+                <input type="checkbox" name="burn-time" value="burn1">
+                    <img src="../images/big-flame.svg" alt="flame1">
+                    <br>
+            </div>
+            <div class="check" title="10-20 Hours">
+                <input type="checkbox" name="burn-time" value="burn2">
+                    <img src="../images/flame2.svg" alt="flame2">
+                    <br>
+            </div>
+            <div class="check set-width" title="20-60 Hours">
+                <input type="checkbox" name="burn-time" value="burn3">
+                    <img src="../images/flame3.svg" alt="flame3">
+                    <br>
+            </div>
+            <div class="check" title="60-100 Hours">
+                <input type="checkbox" name="burn-time" value="burn4">
+                    <img src="../images/flame4.svg" alt="flame4">
+                    <br>
+            </div>
+            <div class="check" title="100+ Hours">
+                <input type="checkbox" name="burn-time" value="burn5">
+                    <img src="../images/flame5.svg" alt="flame5">
+            </div>
+        </form>
+        <!-- <ul class="sub-category">
             <li>Level 1</li>
             <li>Level 2</li>
             <li>Level 3</li>
             <li>Level 4</li>
             <li>Level 5</li>
-        </ul>
+        </ul> -->
     </div>
     <div class="category">
         DIAMETER
