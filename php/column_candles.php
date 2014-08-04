@@ -12,6 +12,9 @@
     <div id="container">
         <!--The mobile navigation Markup hidden via css-->
         <?php include ("nav-others.php"); ?>
+        <div id="breadcrumbs">
+            COLUMNS
+        </div>
 
         <!--The Layer that will be layed over the content
         so that the content is unclickable while menu is shown-->

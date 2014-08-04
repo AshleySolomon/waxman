@@ -160,6 +160,16 @@ $column-height: 150px;
         }
     }
     
+     #breadcrumbs{
+        position: fixed;
+        z-index: 1;
+        width: 100%;
+        top: 100px;
+        padding: 6px;
+        height: 28px;
+        text-align: center;
+    }
+    
 /*
 The Layer that will be layed over the content
 so that the content is unclickable while menu is shown
