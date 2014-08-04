@@ -50,14 +50,15 @@ $column-height: 150px;
     }
     
     #filter-button{
-        display: inline-block;
-        vertical-align: top;
+        display: inline-block;        
         text-align: center;
         background-color: black;
         height: 28px;
         width: 30px;
+        vertical-align: top;
         i{
-            font-size: 27px;
+            font-size: 26px;
+            vertical-align: text-top;
             color: white;
         }
     }
@@ -90,6 +91,35 @@ $column-height: 150px;
         }
         #filters-menu{
             display: block;
+            form{                
+                padding-top: 10px;                
+                width: 200px;
+                margin: 0 auto;
+                color: white;
+                font-size: 13px;
+                font-family: $font-secondary;
+                letter-spacing: 2px;
+                .left{
+                    float: left;
+                    width: 60%;
+                }                
+                .check{                    
+                    margin-bottom: 5px;                                      
+                    img{
+                        vertical-align: top;
+                        height: 23px;
+                    }
+                    p{
+                        display: inline-block;                        
+                    }
+                    &.diameter{
+                        font-size: 14px;
+                        letter-spacing: 3px;
+                    }
+                }
+
+                
+            }
         }
         .category{  
             padding: 5px 10px;
@@ -310,8 +340,21 @@ footer{
                 font-size: 14px;
                 padding-left: 35px;
             }
-        }        
+        }
+         #filters-menu{
+        form{
+            width: 250px;
+            .check{
+                display: inline-block;
+                width: 49%;
+                img{
+                    height: 25px;
+                }
+            }
+        }
+    }        
     }
+
 
     // Override previous value of column height
     $column-height: ($column-height * 0.2) + $column-height;
