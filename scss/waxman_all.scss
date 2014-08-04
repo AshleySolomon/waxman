@@ -117,8 +117,6 @@ $column-height: 150px;
                         letter-spacing: 3px;
                     }
                 }
-
-                
             }
         }
         .category{  
@@ -354,6 +352,16 @@ footer{
         }
     }        
     }
+    #filters-menu{
+        .check{
+            width: 49%;
+            img{
+                height: 25px;
+            }
+        }
+    }
+
+
 
 
     // Override previous value of column height

@@ -62,7 +62,6 @@
                         <br>
                 </div>
             </div>
-
             <div class="check diameter">
                 <input type="checkbox" name="diameter" value="3">
                     <p>3"</p>
