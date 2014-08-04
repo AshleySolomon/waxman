@@ -33,7 +33,7 @@
                     <img src="../images/flame5.svg" alt="flame5">
                     <p>100+ Hours</p>
             </div>
-        </form>        
+        </form> 
     </div>
     <div class="category">
         DIAMETER
