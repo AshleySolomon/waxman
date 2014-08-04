@@ -62,30 +62,32 @@
                         <br>
                 </div>
             </div>
-            <div class="check diameter">
-                <input type="checkbox" name="diameter" value="3">
-                    <p>3"</p>
-                    <br>
-            </div>
-            <div class="check diameter">
-                <input type="checkbox" name="diameter" value="4">
-                    <p>4"</p>
-                    <br>
-            </div>
-            <div class="check diameter">
-                <input type="checkbox" name="diameter" value="5">
-                    <p>5"</p>
-                    <br>
-            </div>
-            <div class="check diameter">
-                <input type="checkbox" name="diameter" value="6">
-                    <p>6"</p>
-                    <br>
-            </div>           
+            <div class="right">
+                <div class="check diameter">
+                    <input type="checkbox" name="diameter" value="3">
+                        <p>3"</p>
+                        <br>
+                </div>
+                <div class="check diameter">
+                    <input type="checkbox" name="diameter" value="4">
+                        <p>4"</p>
+                        <br>
+                </div>
+                <div class="check diameter">
+                    <input type="checkbox" name="diameter" value="5">
+                        <p>5"</p>
+                        <br>
+                </div>
+                <div class="check diameter">
+                    <input type="checkbox" name="diameter" value="6">
+                        <p>6"</p>
+                        <br>
+                </div>  
+            </div>         
         </form>        
     </div>
     <div class="category">
-        FRAGRANCE
+        SCENT
     </div>
     <div>
         <ul class="sub-category">
@@ -102,7 +104,7 @@
         </ul>
     </div>
     <div class="category">
-        STRENGTH
+        SCENT STRENGTH
     </div>  
     <div>  
         <ul class="sub-category">

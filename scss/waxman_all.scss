@@ -339,30 +339,26 @@ footer{
                 padding-left: 35px;
             }
         }
-         #filters-menu{
-        form{
-            width: 250px;
-            .check{
-                display: inline-block;
-                width: 49%;
-                img{
-                    height: 25px;
+        #filters-menu{
+            form{
+                width: 250px;
+                .left{}
+                .right{}
+                .check{
+                    display: inline-block;
+                    width: 49%;
+                    img{
+                        height: 25px;
+                    }
                 }
             }
-        }
-    }        
-    }
-    #filters-menu{
-        .check{
-            width: 49%;
-            img{
-                height: 25px;
+            #material{
+                .check{
+                    width: 80%;
+                }
             }
-        }
+        }        
     }
-
-
-
 
     // Override previous value of column height
     $column-height: ($column-height * 0.2) + $column-height;
