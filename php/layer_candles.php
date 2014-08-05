@@ -11,7 +11,7 @@
     <!--This wrapping container is used to get the width of the whole content-->
     <div id="container">
         <!--The mobile navigation Markup hidden via css-->
-        <?php include ("nav-others.php"); ?>
+        <?php include ("nav-others.php");?>
         <div id="breadcrumbs">
             COLUMNS
         </div>
@@ -21,45 +21,68 @@
         <div id="contentLayer"></div>
 
         <main>
-            <a href="environmental_candles.html">
-                <div class="column" id="environmental"> 
+            <a href="natural_candles.html">
+                <div class="column" id="deep_forest"> 
                     <div class="title">
-                        <p>NATURAL</p>
+                        <p>DEEP FOREST</p>
+                        <p>$13.00-$56.00</p>
                     </div>
                 </div>
             </a>
 
-            <a href="layer_candles.php">
-                <div class="column right" id="layers">
+            <a href="layers_candles.php">
+                <div class="column right" id="fifth_ave">
                     <div class="title">
-                        <p>LAYERS</p>
+                        <p>FIFTH AVE.</p>
+                        <p>$13.00-$56.00</p>
                     </div>                
                 </div>
             </a>
 
             <a href="spiritual_candles.html">
-                <div class="column" id="spiritual">
+                <div class="column" id="fengshui">
                     <div class="title">
-                        <p>SPIRITUAL</p>
+                        <p>FENG SHUI</p>
+                        <p>$13.00-$56.00</p>
                     </div>
                 </div>
             </a>
 
             <a href="signature_column_candles.html">
-                <div class="column right" id="signature">
+                <div class="column right" id="kansas">
                     <div class="title">
-                        <p>SIGNATURE</p>
+                        <p>KANSAS</p>
+                        <p>$11.00-$24.00</p>
                     </div>
                 </div>
             </a>
 
-            <a href="all_column_candles.html">
-                <div class="column" id="all_columns">
+            <a href="signature_column_candles.html">
+                <div class="column right" id="kitchen">
                     <div class="title">
-                        <p>ALL COLUMNS</p>
+                        <p>KITCHEN</p>
+                        <p>$13.00-$56.00</p>
                     </div>
                 </div>
-            </a>           
+            </a>
+
+            <a href="natural_candles.html">
+                <div class="column" id="sunshine"> 
+                    <div class="title">
+                        <p>SUNSHINE</p>
+                        <p>$13.00-$56.00</p>
+                    </div>
+                </div>
+            </a>
+
+            <a href="natural_candles.html">
+                <div class="column" id="water"> 
+                    <div class="title">
+                        <p>WATER</p>
+                        <p>$13.00-$56.00</p>
+                    </div>
+                </div>
+            </a>
         </main>
 
         <?php include ("footer.php"); ?>
