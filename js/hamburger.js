@@ -45,6 +45,7 @@ jQuery(document).ready(function() {
 
         //enable all scrolling on mobile devices when menu is closed
         jQuery('#container').unbind('touchmove');
+        jQuery('body').css('overflow-y', "scroll");
 
         //set margin for the whole container back to original state with a jquery UI animation
         jQuery("#container").animate({"left": ["0", 'easeOutExpo']}, {
