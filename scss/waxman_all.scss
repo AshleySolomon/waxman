@@ -411,6 +411,9 @@ footer{
 }
 
 @media only screen and (min-width: 640px){
+    #breadcrumbs{
+        left: 42%;
+    }
     // Override previous value of column height
     $column-height: ($column-height * 0.2) + $column-height;
     main{
@@ -437,6 +440,9 @@ footer{
 }
 
 @media only screen and (min-width: 768px){
+    #breadcrumbs{
+        left: 43%;
+    }
     // Override previous value of column height
     $column-height: ($column-height * 0.2) + $column-height;
     main{
